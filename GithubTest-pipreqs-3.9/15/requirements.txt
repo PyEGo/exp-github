@@ -1,0 +1,8 @@
+numpy==1.19.4
+pandas==1.2.0
+databricks==0.2
+ipython==7.21.0
+py4j==0.10.9.2
+pyarrow==3.0.0
+pyspark==3.1.1
+pytest==6.2.2

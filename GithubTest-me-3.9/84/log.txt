@@ -1,0 +1,4 @@
+[+] DoSing target: 127.0.0.1 a total of 1 times
+[+] DoS attempt: 1
+[+] establishing initialization
+[!] error on target: 127.0.0.1 ([Errno 111] Connection refused), if this happened after a successful attack, change the wait time

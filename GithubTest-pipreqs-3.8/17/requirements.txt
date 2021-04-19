@@ -1,0 +1,8 @@
+tqdm==4.54.1
+requests==2.25.0
+numpy==1.19.4
+gluoncv==0.10.0
+mxnet==1.7.0.post2
+Pillow==8.1.2
+rfconv==0.0.2b20210309
+torchvision==0.9.0

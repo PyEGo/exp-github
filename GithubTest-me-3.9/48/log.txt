@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/SSRFmap/ssrfmap.py", line 3, in <module>
+    from core.ssrf import SSRF
+  File "/SSRFmap/core/ssrf.py", line 1, in <module>
+    from core.requester import Requester
+  File "/SSRFmap/core/requester.py", line 3, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

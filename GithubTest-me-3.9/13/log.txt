@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/akshare/test.py", line 1, in <module>
+    import akshare as ak
+  File "/akshare/akshare/__init__.py", line 1210, in <module>
+    from akshare.bond.bond_summary import bond_summary_sse
+  File "/akshare/akshare/bond/bond_summary.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

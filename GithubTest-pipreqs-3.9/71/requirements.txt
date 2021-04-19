@@ -1,0 +1,4 @@
+requests==2.25.0
+argcomplete==1.12.2
+python_crontab==2.5.1
+termcolor==1.1.0

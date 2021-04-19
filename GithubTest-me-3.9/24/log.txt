@@ -1,0 +1,10 @@
+Namespace(dataset='h36m', keypoints='cpn_ft_h36m_dbb', subjects_train='S1,S5,S6,S7,S8', subjects_test='S9,S11', subjects_unlabeled='', actions='*', checkpoint='checkpoint', checkpoint_frequency=10, resume='', evaluate='pretrained_h36m_cpn.bin', render=False, by_subject=False, export_training_curves=False, stride=1, epochs=60, batch_size=1024, dropout=0.25, learning_rate=0.001, lr_decay=0.95, data_augmentation=True, test_time_augmentation=True, architecture='3,3,3,3,3', causal=False, channels=1024, subset=1, downsample=1, warmup=1, no_eval=False, dense=False, disable_optimizations=False, linear_projection=False, bone_length_term=True, no_proj=False, viz_subject=None, viz_action=None, viz_camera=0, viz_video=None, viz_skip=0, viz_output=None, viz_export=None, viz_bitrate=3000, viz_no_ground_truth=False, viz_limit=-1, viz_downsample=1, viz_size=5)
+Loading dataset...
+Traceback (most recent call last):
+  File "/VideoPose3D/run.py", line 41, in <module>
+    dataset = Human36mDataset(dataset_path)
+  File "/VideoPose3D/common/h36m_dataset.py", line 234, in __init__
+    data = np.load(path, allow_pickle=True)['positions_3d'].item()
+  File "/usr/local/lib/python3.9/site-packages/numpy/lib/npyio.py", line 417, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'data/data_3d_h36m.npz'

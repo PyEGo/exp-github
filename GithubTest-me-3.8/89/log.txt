@@ -1,0 +1,4 @@
+COMMAND
+/bin/sh
+ps
+/usr/local/bin/python

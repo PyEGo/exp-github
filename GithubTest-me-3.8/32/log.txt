@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "test.py", line 1, in <module>
+    from facenet_pytorch import MTCNN, InceptionResnetV1
+  File "/facenet-pytorch/facenet_pytorch/__init__.py", line 1, in <module>
+    from .models.inception_resnet_v1 import InceptionResnetV1
+  File "/facenet-pytorch/facenet_pytorch/models/inception_resnet_v1.py", line 2, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "/ECommerceCrawlers-East_money/East_money/main.py", line 3, in <module>
+    cmdline.execute("scrapy crawl east --nolog".split())
+  File "/usr/local/lib/python3.9/site-packages/scrapy/cmdline.py", line 144, in execute
+    cmd.crawler_process = CrawlerProcess(settings)
+  File "/usr/local/lib/python3.9/site-packages/scrapy/crawler.py", line 280, in __init__
+    super().__init__(settings)
+  File "/usr/local/lib/python3.9/site-packages/scrapy/crawler.py", line 152, in __init__
+    self.spider_loader = self._get_spider_loader(settings)
+  File "/usr/local/lib/python3.9/site-packages/scrapy/crawler.py", line 146, in _get_spider_loader
+    return loader_cls.from_settings(settings.frozencopy())
+  File "/usr/local/lib/python3.9/site-packages/scrapy/spiderloader.py", line 67, in from_settings
+    return cls(settings)
+  File "/usr/local/lib/python3.9/site-packages/scrapy/spiderloader.py", line 24, in __init__
+    self._load_all_spiders()
+  File "/usr/local/lib/python3.9/site-packages/scrapy/spiderloader.py", line 51, in _load_all_spiders
+    for module in walk_modules(name):
+  File "/usr/local/lib/python3.9/site-packages/scrapy/utils/misc.py", line 89, in walk_modules
+    submod = import_module(fullpath)
+  File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/ECommerceCrawlers-East_money/East_money/east_money/spiders/east_spider.py", line 5, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/petastorm/test.py", line 11, in <module>
+    UnischemaField('image1', np.uint8, (128, 256, 3), CompressedImageCodec('png'), False),
+  File "/petastorm/petastorm/codecs.py", line 65, in __init__
+    assert OPENCV_AVAILABLE, "{} requires opencv-python to be installed".format(type(self).__name__)
+AssertionError: CompressedImageCodec requires opencv-python to be installed

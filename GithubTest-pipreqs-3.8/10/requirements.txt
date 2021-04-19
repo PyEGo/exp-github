@@ -1,0 +1,7 @@
+numpy==1.19.4
+matplotlib==3.3.3
+scipy==1.5.4
+pandas==1.2.0
+chapter==1.0.1a0
+cvxopt==1.2.6
+progressbar33==2.4

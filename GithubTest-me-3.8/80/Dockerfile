@@ -1,0 +1,26 @@
+FROM python:3.8
+ADD PyInquirer PyInquirer
+RUN ["pip","install","notifications-python-client"]
+RUN ["pip","install","six"]
+RUN ["pip","install","pytest"]
+RUN ["pip","install","py"]
+RUN ["pip","install","geoplot"]
+RUN ["pip","install","Pygments"]
+RUN ["pip","install","prom"]
+RUN ["pip","install","veriloggen"]
+RUN ["pip","install","prompt"]
+RUN ["pip","install","pytz"]
+RUN ["pip","install","ipython"]
+RUN ["pip","install","decorator"]
+RUN ["pip","install","pexpect"]
+RUN ["pip","install","python-dateutil"]
+RUN ["pip","install","ipython_genutils"]
+RUN ["pip","install","ptyprocess"]
+RUN ["pip","install","pickleshare"]
+RUN ["pip","install","traitlets"]
+RUN ["pip","install","simplegeneric"]
+RUN ["pip","install","wcwidth"]
+RUN ["pip","install","prompt-toolkit"]
+RUN ["pip","install","utils"]
+CMD cd PyInquirer && python test.py
+

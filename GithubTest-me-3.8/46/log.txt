@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "test.py", line 1, in <module>
+    from DecryptLogin import login
+  File "/DecryptLogin/DecryptLogin/login.py", line 11, in <module>
+    from .core import *
+  File "/DecryptLogin/DecryptLogin/core/__init__.py", line 2, in <module>
+    from .pypi import pypi
+  File "/DecryptLogin/DecryptLogin/core/pypi.py", line 12, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

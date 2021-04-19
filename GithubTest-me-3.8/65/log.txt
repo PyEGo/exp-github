@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/policy_sentry", line 5, in <module>
+    from policy_sentry.bin.cli import main
+  File "/usr/local/lib/python3.8/site-packages/policy_sentry/bin/cli.py", line 5, in <module>
+    import click
+ModuleNotFoundError: No module named 'click'

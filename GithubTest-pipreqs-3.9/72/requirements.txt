@@ -1,0 +1,10 @@
+pandas==1.2.0
+scipy==1.5.4
+six==1.15.0
+numpy==1.19.4
+community==1.0.0b1
+gensim==3.8.3
+karateclub==1.0.23
+networkx==2.5
+pygsp==0.5.1
+scikit_learn==0.24.1

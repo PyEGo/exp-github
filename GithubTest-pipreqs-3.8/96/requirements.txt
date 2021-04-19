@@ -1,0 +1,10 @@
+numpy==1.19.4
+six==1.15.0
+Flask==1.1.2
+flask_compress==1.9.0
+flask_cors==3.0.10
+flask_json==0.3.4
+GPUtil==1.4.0
+pyzmq==22.0.3
+tensorflow==2.4.1
+termcolor==1.1.0

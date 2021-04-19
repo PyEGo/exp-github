@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/dirsearch/dirsearch.py", line 27, in <module>
+    from lib.core import ArgumentParser
+  File "/dirsearch/lib/core/__init__.py", line 3, in <module>
+    from .fuzzer import *  # noqa: F401
+  File "/dirsearch/lib/core/fuzzer.py", line 22, in <module>
+    from lib.connection.request_exception import RequestException
+  File "/dirsearch/lib/connection/__init__.py", line 2, in <module>
+    from .requester import *  # noqa: F401
+  File "/dirsearch/lib/connection/requester.py", line 24, in <module>
+    import thirdparty.requests as requests
+  File "/dirsearch/thirdparty/requests/__init__.py", line 43, in <module>
+    import urllib3
+ModuleNotFoundError: No module named 'urllib3'

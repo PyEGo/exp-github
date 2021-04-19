@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "test.py", line 1, in <module>
+    from pandarallel import pandarallel
+  File "/pandarallel/pandarallel/__init__.py", line 3, in <module>
+    from .pandarallel import pandarallel
+  File "/pandarallel/pandarallel/pandarallel.py", line 10, in <module>
+    from pandas import DataFrame, Series
+ModuleNotFoundError: No module named 'pandas'

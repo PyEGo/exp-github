@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "//Summer2021-Internships/sync.py", line 36, in <module>
+    html = parse_markdown_to_html_table()
+  File "//Summer2021-Internships/sync.py", line 9, in parse_markdown_to_html_table
+    readme = open("README.md", 'r').read()
+FileNotFoundError: [Errno 2] No such file or directory: 'README.md'

@@ -1,0 +1,21 @@
+Getting uuid of QR code.
+Downloading QR code.
+Traceback (most recent call last):
+  File "get_user_info.py", line 49, in <module>
+    itchat.auto_login()
+  File "/usr/local/lib/python3.8/site-packages/itchat/components/register.py", line 35, in auto_login
+    self.login(enableCmdQR=enableCmdQR, picDir=picDir, qrCallback=qrCallback,
+  File "/usr/local/lib/python3.8/site-packages/itchat/components/login.py", line 48, in login
+    qrStorage = self.get_QR(enableCmdQR=enableCmdQR,
+  File "/usr/local/lib/python3.8/site-packages/itchat/components/login.py", line 123, in get_QR
+    utils.print_qr(picDir)
+  File "/usr/local/lib/python3.8/site-packages/itchat/utils.py", line 83, in print_qr
+    subprocess.call(['xdg-open', fileDir])
+  File "/usr/local/lib/python3.8/subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/usr/local/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'xdg-open'
+█

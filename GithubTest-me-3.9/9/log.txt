@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/pipx", line 5, in <module>
+    from pipx.main import cli
+  File "/usr/local/lib/python3.9/site-packages/pipx/main.py", line 18, in <module>
+    import argcomplete  # type: ignore
+ModuleNotFoundError: No module named 'argcomplete'

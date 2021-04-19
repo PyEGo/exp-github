@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/CVE-2020-1472/./zerologon_tester.py", line 3, in <module>
+    from impacket.dcerpc.v5 import nrpc, epm
+ModuleNotFoundError: No module named 'impacket'

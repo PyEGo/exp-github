@@ -1,0 +1,17 @@
+chardet==3.0.4
+urllib3==1.24.3
+requests==2.25.0
+aiohttp==3.7.4.post0
+beautifulsoup4==4.9.3
+dnspython==2.1.0
+fake_useragent==0.1.11
+geoip2==4.1.0
+lxml==4.6.2
+nmap==0.0.1
+pyfiglet==0.8.post1
+pymongo==3.11.3
+pyOpenSSL==20.0.1
+SocksiPy_branch==1.01
+tldextract==3.1.0
+uvloop==0.15.2
+virustotal_python==0.1.1

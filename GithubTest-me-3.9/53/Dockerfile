@@ -1,0 +1,26 @@
+FROM python:3.9
+ADD finetune-transformer-lm finetune-transformer-lm
+RUN ["pip","install","pan-python"]
+RUN ["pip","install","django-text"]
+RUN ["pip","install","psycopg2"]
+RUN ["pip","install","dataset"]
+RUN ["pip","install","pandacan"]
+RUN ["pip","install","analysis"]
+RUN ["pip","install","notifications-python-client"]
+RUN ["pip","install","geoplot"]
+RUN ["pip","install","access_points"]
+RUN ["pip","install","veriloggen"]
+RUN ["pip","install","tensorlayer"]
+RUN ["pip","install","ftfy"]
+RUN ["pip","install","tqdm"]
+RUN ["pip","install","numpy"]
+RUN ["pip","install","joblib"]
+RUN ["pip","install","spacy"]
+RUN ["pip","install","tensorflow"]
+RUN ["pip","install","scikit-learn"]
+RUN ["pip","install","utils"]
+RUN ["pip","install","datasets"]
+RUN ["pip","install","pandas"]
+RUN ["pip","install","sklearn_utils"]
+CMD cd finetune-transformer-lm && python train.py
+

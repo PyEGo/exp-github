@@ -1,0 +1,3 @@
+requests==2.25.0
+lxml==4.6.2
+scrapy==2.4.1

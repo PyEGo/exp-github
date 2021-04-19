@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "test.py", line 2, in <module>
+    from karateclub import EgoNetSplitter
+  File "/karateclub/karateclub/__init__.py", line 1, in <module>
+    from karateclub.community_detection import *
+  File "/karateclub/karateclub/community_detection/__init__.py", line 1, in <module>
+    from .overlapping import *
+  File "/karateclub/karateclub/community_detection/overlapping/__init__.py", line 1, in <module>
+    from .danmf import DANMF
+  File "/karateclub/karateclub/community_detection/overlapping/danmf.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

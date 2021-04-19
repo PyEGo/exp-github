@@ -1,0 +1,19 @@
+---------------------------
+   Rock Paper Scissors
+ Data Structures Edition
+---------------------------
+Available rolls:
+1. rock
+2. paper
+3. scissors
+Traceback (most recent call last):
+  File "code/07-data-structures/rocks-game/rpsgame.py", line 102, in <module>
+    main()
+  File "code/07-data-structures/rocks-game/rpsgame.py", line 21, in main
+    play_game("You", "Computer")
+  File "code/07-data-structures/rocks-game/rpsgame.py", line 36, in play_game
+    roll1 = get_roll(player_1, roll_names)
+  File "code/07-data-structures/rocks-game/rpsgame.py", line 91, in get_roll
+    text = input(f"{player_name}, what is your roll? ")
+EOFError: EOF when reading a line
+You, what is your roll? 

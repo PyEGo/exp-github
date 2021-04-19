@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/dimensionality_reduction_alo_codes/codes/SVD/SVD.py", line 9, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

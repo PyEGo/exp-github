@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "//Python-crawler-tutorial-starts-from-zero/code_demo/Tieba.py", line 3, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'

@@ -1,0 +1,1341 @@
+[
+ {
+  "id": "0",
+  "name": "tiler",
+  "coderoot": "0/tiler",
+  "url": "https://github.com/nuno-faria/tiler",
+  "run": [],
+  "cmd": "cd tiler && python gen_tiles.py images/cake_at_simple.png",
+  "desc": "Build images with images ",
+  "tag": [
+   "CV"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": "1",
+  "name": "metaflow",
+  "coderoot": "1/metaflow/metaflow",
+  "url": "https://github.com/Netflix/metaflow",
+  "run": [],
+  "cmd": "cd metaflow && python test.py",
+  "desc": "Build and manage real-life data science projects with ease.",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": "2",
+  "name": "tinygrad",
+  "coderoot": "2/tinygrad/tinygrad",
+  "url": "https://github.com/geohot/tinygrad",
+  "run": [],
+  "cmd": "cd tinygrad && python test.py",
+  "desc": "You like pytorch? You like micrograd? You love tinygrad.",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": "3",
+  "name": "sktime",
+  "coderoot": "3/sktime/sktime",
+  "url": "https://github.com/alan-turing-institute/sktime",
+  "run": [],
+  "cmd": "cd sktime && python test.py",
+  "desc": "A unified framework for machine learning with time series ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": "4",
+  "name": "scalene",
+  "coderoot": "4/scalene/scalene",
+  "url": "https://github.com/emeryberger/scalene",
+  "run": [
+   "cd scalene && pip install . --no-deps"
+  ],
+  "cmd": "scalene test/testme.py",
+  "desc": "Scalene: a high-performance, high-precision CPU and memory profiler for Python",
+  "tag": [
+   "development"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": "5",
+  "name": "Python-crawler-tutorial-starts-from-zero",
+  "coderoot": "5/Python-crawler-tutorial-starts-from-zero/code_demo",
+  "url": "https://github.com/Kr1s77/Python-crawler-tutorial-starts-from-zero",
+  "run": [],
+  "cmd": "python Python-crawler-tutorial-starts-from-zero/code_demo/Tieba.py",
+  "desc": "python爬虫教程，带你从零到一，包含js逆向，selenium, tesseract OCR识别,mongodb的使用，以及scrapy框架 ",
+  "tag": [
+   "Internet",
+   "database"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": "6",
+  "name": "jd-assistant",
+  "coderoot": "6/jd-assistant",
+  "url": "https://github.com/tychxn/jd-assistant",
+  "run": [],
+  "cmd": "cd jd-assistant && python main.py",
+  "desc": "京东抢购助手：包含登录，查询商品库存/价格，添加/清空购物车，抢购商品(下单)，查询订单等功能 ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": "7",
+  "name": "autoscraper",
+  "coderoot": "7/autoscraper/autoscraper",
+  "url": "https://github.com/alirezamika/autoscraper",
+  "run": [],
+  "cmd": "cd autoscraper && python test.py",
+  "desc": "A Smart, Automatic, Fast and Lightweight Web Scraper for Python ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": "8",
+  "name": "bullet",
+  "coderoot": "8/bullet/bullet",
+  "url": "https://github.com/bchao1/bullet",
+  "run": [],
+  "cmd": "cd bullet && python star.py",
+  "desc": "Interactive prompts made simple. Build a prompt like stacking blocks.",
+  "tag": [
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": "9",
+  "name": "pipx",
+  "coderoot": "9/pipx/src/pipx",
+  "url": "https://github.com/pipxproject/pipx",
+  "run": [
+   "cd pipx && pip install . --no-deps"
+  ],
+  "cmd": "pipx completions",
+  "desc": "Install and Run Python Applications in Isolated Environments ",
+  "tag": [
+   "development"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": "10",
+  "name": "DeepLearning",
+  "coderoot": "10/DeepLearning/code",
+  "url": "https://github.com/MingchaoZhu/DeepLearning",
+  "run": [],
+  "cmd": "cd DeepLearning/code && python chapter7.py",
+  "desc": "Python for《Deep Learning》，该书为《深度学习》(花书) 数学推导、原理剖析与源码级别代码实现 ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": "11",
+  "name": "OneForAll",
+  "coderoot": "11/OneForAll",
+  "url": "https://github.com/shmilylty/OneForAll",
+  "run": [],
+  "cmd": "cd OneForAll && python oneforall.py --target example.com run",
+  "desc": "OneForAll是一款功能强大的子域收集工具 ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": "12",
+  "name": "learn_math_fast",
+  "coderoot": "12/learn_math_fast",
+  "url": "https://github.com/llSourcell/learn_math_fast",
+  "run": [],
+  "cmd": "python learn_math_fast/build_toc.py",
+  "desc": "This is the Curriculum for \"How to Learn Mathematics Fast\" By Siraj Raval on Youtube ",
+  "tag": [],
+  "project_type": "application"
+ },
+ {
+  "id": "13",
+  "name": "akshare",
+  "coderoot": "13/akshare/akshare",
+  "url": "https://github.com/jindaxiang/akshare",
+  "run": [],
+  "cmd": "cd akshare && python test.py",
+  "desc": "开源财经数据接口库 ",
+  "tag": [
+   "Internet",
+   "database"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": "14",
+  "name": "Summer2021-Internships",
+  "coderoot": "14/Summer2021-Internships",
+  "url": "https://github.com/pittcsc/Summer2021-Internships",
+  "run": [],
+  "cmd": "python Summer2021-Internships/sync.py",
+  "desc": "Collection of Summer 2021 tech internships. ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": "15",
+  "name": "koalas",
+  "coderoot": "15/koalas/databricks",
+  "url": "https://github.com/databricks/koalas",
+  "run": [],
+  "cmd": "cd koalas && python test.py",
+  "desc": "Koalas: pandas API on Apache Spark ",
+  "tag": [],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 16,
+  "name": "kb",
+  "coderoot": "16/kb/kb",
+  "url": "https://github.com/gnebbia/kb",
+  "run": [
+   "cd kb && pip install . --no-deps"
+  ],
+  "cmd": "kb list",
+  "desc": "A minimalist command line knowledge base manager ",
+  "tag": [
+   "database"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 17,
+  "name": "ResNeSt",
+  "coderoot": "17/ResNeSt/resnest",
+  "url": "https://github.com/zhanghang1989/ResNeSt",
+  "run": [],
+  "cmd": "cd ResNeSt && python test.py",
+  "desc": " ResNeSt: Split-Attention Networks ",
+  "tag": [
+   "ML/DL",
+   "CV"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 18,
+  "name": "ECommerceCrawlers-TouTiao",
+  "coderoot": "18/ECommerceCrawlers-TouTiao/TouTiao",
+  "url": "https://github.com/DropsDevopsOrg/ECommerceCrawlers",
+  "run": [],
+  "cmd": "cd ECommerceCrawlers-TouTiao/TouTiao && python toutiao.py",
+  "desc": "实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、企查查、招聘网站、闲鱼、阿里任务、博客园、微博、百度贴吧、豆瓣电影、包图网",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 19,
+  "name": "ECommerceCrawlers-East_money",
+  "coderoot": "19/ECommerceCrawlers-East_money/East_money",
+  "url": "https://github.com/DropsDevopsOrg/ECommerceCrawlers",
+  "run": [],
+  "cmd": "cd ECommerceCrawlers-East_money/East_money && python main.py",
+  "desc": "实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、企查查、招聘网站、闲鱼、阿里任务、博客园、微博、百度贴吧、豆瓣电影、包图网",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 20,
+  "name": "RAdam",
+  "coderoot": "20/RAdam/radam",
+  "url": "https://github.com/LiyuanLucasLiu/RAdam",
+  "run": [],
+  "cmd": "cd RAdam && python test.py",
+  "desc": "On the Variance of the Adaptive Learning Rate and Beyond ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 21,
+  "name": "newscatcher",
+  "coderoot": "21/newscatcher/newscatcher",
+  "url": "https://github.com/kotartemiy/newscatcher",
+  "run": [],
+  "cmd": "cd newscatcher && python test.py",
+  "desc": "Programmatically collect normalized news from (almost) any website. ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 22,
+  "name": "GitHub520",
+  "coderoot": "22/GitHub520",
+  "url": "https://github.com/521xueweihan/GitHub520",
+  "run": [],
+  "cmd": "cd GitHub520 && python fetch_ips.py",
+  "desc": "让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 23,
+  "name": "vit-pytorch",
+  "coderoot": "23/vit-pytorch",
+  "url": "https://github.com/lucidrains/vit-pytorch",
+  "run": [],
+  "cmd": "cd vit-pytorch && python test.py",
+  "desc": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch ",
+  "tag": [
+   "ML/DL",
+   "CV"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 24,
+  "name": "VideoPose3D",
+  "coderoot": "24/VideoPose3D",
+  "url": "https://github.com/facebookresearch/VideoPose3D",
+  "run": [],
+  "cmd": "cd VideoPose3D && python run.py -k cpn_ft_h36m_dbb -arc 3,3,3,3,3 -c checkpoint --evaluate pretrained_h36m_cpn.bin",
+  "desc": "Efficient 3D human pose estimation in video using 2D keypoint trajectories ",
+  "tag": [
+   "ML/DL",
+   "CV"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 25,
+  "name": "real-url",
+  "coderoot": "25/real-url/huya.py",
+  "url": "https://github.com/wbt5/real-url",
+  "run": [],
+  "cmd": "cd real-url && python huya.py",
+  "desc": "获取斗鱼&虎牙&哔哩哔哩&抖音&快手等 48 个直播平台的真实流媒体地址(直播源)和弹幕，直播源可在 PotPlayer、flv.js 等播放器中播放",
+  "tag": [
+   "Internet",
+   "CV"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 26,
+  "name": "clearml",
+  "coderoot": "26/clearml/clearml",
+  "url": "https://github.com/allegroai/clearml",
+  "run": [],
+  "cmd": "cd clearml && python test.py",
+  "desc": "ClearML - Auto-Magical Suite of tools to streamline your ML workflow. Experiment Manager, ML-Ops and Data-Management ",
+  "tag": [
+   "ML/DL",
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 27,
+  "name": "captum",
+  "coderoot": "27/captum/captum",
+  "url": "https://github.com/pytorch/captum",
+  "run": [],
+  "cmd": "cd captum && python test.py",
+  "desc": "Model interpretability and understanding for PyTorch ",
+  "tag": [
+   "ML/DL",
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 28,
+  "name": "UGATIT-pytorch",
+  "coderoot": "28/UGATIT-pytorch",
+  "url": "https://github.com/znxlwm/UGATIT-pytorch",
+  "run": [],
+  "cmd": "cd UGATIT-pytorch && python main.py --dataset selfie2anime --phase test",
+  "desc": "Official PyTorch implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation ",
+  "tag": [
+   "ML/DL",
+   "CV",
+   "NLP"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 29,
+  "name": "arxiv-latex-cleaner",
+  "coderoot": "29/arxiv-latex-cleaner/arxiv_latex_cleaner",
+  "url": "https://github.com/google-research/arxiv-latex-cleaner",
+  "run": [
+   "cd arxiv-latex-cleaner && pip install . --no-deps"
+  ],
+  "cmd": "arxiv_latex_cleaner -h",
+  "desc": "arXiv LaTeX Cleaner: Easily clean the LaTeX code of your paper to submit to arXiv ",
+  "tag": [
+   "development",
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 30,
+  "name": "GeneralNewsExtractor",
+  "coderoot": "30/GeneralNewsExtractor/gne",
+  "url": "https://github.com/kingname/GeneralNewsExtractor",
+  "run": [],
+  "cmd": "cd GeneralNewsExtractor && python test.py",
+  "desc": "新闻网页正文通用抽取器 Beta 版. ",
+  "tag": [
+   "NLP"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 31,
+  "name": "DXY-COVID-19-Crawler",
+  "coderoot": "31/DXY-COVID-19-Crawler",
+  "url": "https://github.com/BlankerL/DXY-COVID-19-Crawler",
+  "run": [],
+  "cmd": "cd DXY-COVID-19-Crawler && python main.py",
+  "desc": "2019新型冠状病毒疫情实时爬虫及API | COVID-19/2019-nCoV Realtime Infection Crawler and API ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 32,
+  "name": "facenet-pytorch",
+  "coderoot": "32/facenet-pytorch/facenet_pytorch",
+  "url": "https://github.com/timesler/facenet-pytorch",
+  "run": [],
+  "cmd": "cd facenet-pytorch && python test.py",
+  "desc": "Pretrained Pytorch face detection (MTCNN) and recognition (InceptionResnet) models ",
+  "tag": [
+   "ML/DL",
+   "CV"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 33,
+  "name": "PrettyErrors",
+  "coderoot": "33/PrettyErrors/pretty_errors",
+  "url": "https://github.com/onelivesleft/PrettyErrors",
+  "run": [],
+  "cmd": "cd PrettyErrors && python test.py",
+  "desc": "Prettify Python exception output to make it legible. ",
+  "tag": [
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 34,
+  "name": "m2cgen",
+  "coderoot": "34/m2cgen/m2cgen",
+  "url": "https://github.com/BayesWitnesses/m2cgen",
+  "run": ["pip install scikit-learn"],
+  "cmd": "cd m2cgen && python test.py",
+  "desc": "Transform ML models into a native code (Java, C, Python, Go, JavaScript, Visual Basic, C#, R, PowerShell, PHP, Dart, Haskell, Ruby) with zero dependencies ",
+  "tag": [
+   "ML/DL",
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 35,
+  "name": "dirmap",
+  "coderoot": "35/dirmap",
+  "url": "https://github.com/H4ckForJob/dirmap",
+  "run": [],
+  "cmd": "cd dirmap && python dirmap.py -i 192.168.1.1 -lcf",
+  "desc": "An advanced web directory & file scanning tool that will be more powerful than DirBuster, Dirsearch, cansina, and Yu Jian.一个高级web目录、文件扫描工具，功能将会强于DirBuster、Dirsearch、cansina、御剑。 ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 36,
+  "name": "latexify_py",
+  "coderoot": "36/latexify_py/latexify",
+  "url": "https://github.com/google/latexify_py",
+  "run": [],
+  "cmd": "cd latexify_py && python test.py",
+  "desc": "Generates LaTeX math description from Python functions. ",
+  "tag": [
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 37,
+  "name": "springer_free_books",
+  "coderoot": "37/springer_free_books",
+  "url": "https://github.com/alexgand/springer_free_books",
+  "run": [],
+  "cmd": "cd springer_free_books && python main.py -i 2",
+  "desc": "Python script to download all Springer books released for free during the 2020 COVID-19 quarantine ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 38,
+  "name": "stumpy",
+  "coderoot": "38/stumpy/stumpy",
+  "url": "https://github.com/TDAmeritrade/stumpy",
+  "run": [],
+  "cmd": "cd stumpy && python test.py",
+  "desc": "STUMPY is a powerful and scalable Python library for computing a Matrix Profile, which can be used for a variety of time series data mining tasks ",
+  "tag": [
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 39,
+  "name": "SegLoss",
+  "coderoot": "39/SegLoss/losses_pytorch",
+  "url": "https://github.com/JunMa11/SegLoss",
+  "run": [],
+  "cmd": "cd SegLoss/losses_pytorch && python focal_loss.py",
+  "desc": "A collection of loss functions for medical image segmentation ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 40,
+  "name": "coding-problems",
+  "coderoot": "40/coding-problems/LinkedLists",
+  "url": "https://github.com/MTrajK/coding-problems",
+  "run": [],
+  "cmd": "cd coding-problems/LinkedLists && python odd_even_ll.py",
+  "desc": "Solutions for various coding/algorithmic problems and many useful resources for learning algorithms and data structures",
+  "tag": [],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 41,
+  "name": "dongbei",
+  "coderoot": "41/dongbei",
+  "url": "https://github.com/zhanyong-wan/dongbei",
+  "run": [],
+  "cmd": "cd dongbei && test/dongbei_test.py",
+  "desc": "东北方言编程语言 ",
+  "tag": [],
+  "project_type": "application"
+ },
+ {
+  "id": 42,
+  "name": "returns",
+  "coderoot": "42/returns/returns",
+  "url": "https://github.com/dry-python/returns",
+  "run": [],
+  "cmd": "cd returns && python test.py",
+  "desc": "Make your functions return something meaningful, typed, and safe. ",
+  "tag": [
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 43,
+  "name": "xxh",
+  "coderoot": "43/xxh/xxh_xxh",
+  "url": "https://github.com/xxh/xxh",
+  "run": [
+   "cd xxh && pip install . --no-deps"
+  ],
+  "cmd": "xxh -h",
+  "desc": "Bring your favorite shell wherever you go through the ssh ",
+  "tag": [
+   "development"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 44,
+  "name": "apistar",
+  "coderoot": "44/apistar/apistar",
+  "url": "https://github.com/encode/apistar",
+  "run": ["cd apistar && pip install . --no-deps"],
+  "cmd": "cd apistar/mytest && apistar validate",
+  "desc": "The Web API toolkit",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 45,
+  "name": "pandarallel",
+  "coderoot": "45/pandarallel/pandarallel",
+  "url": "https://github.com/nalepae/pandarallel",
+  "run": [],
+  "cmd": "cd pandarallel && python test.py",
+  "desc": "A simple and efficient tool to parallelize Pandas operations on all available CPUs ",
+  "tag": [
+   "distribution"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 46,
+  "name": "DecryptLogin",
+  "coderoot": "46/DecryptLogin/DecryptLogin",
+  "url": "https://github.com/CharlesPikachu/DecryptLogin",
+  "run": [],
+  "cmd": "cd DecryptLogin && python test.py",
+  "desc": "APIs for loginning some websites using requests. ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 47,
+  "name": "webpy",
+  "coderoot": "47/webpy/web",
+  "url": "https://github.com/webpy/webpy",
+  "run": [],
+  "cmd": "cd webpy && python test.py",
+  "desc": "web.py is a web framework for python that is as simple as it is powerful. ",
+  "tag": [
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 48,
+  "name": "SSRFmap",
+  "coderoot": "48/SSRFmap",
+  "url": "https://github.com/swisskyrepo/SSRFmap",
+  "run": [],
+  "cmd": "cd SSRFmap && python ssrfmap.py -r data/request.txt -p url -m readfiles,portscan",
+  "desc": "Automatic SSRF fuzzer and exploitation tool ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 49,
+  "name": "python-for-absolute-beginners-course",
+  "coderoot": "49/python-for-absolute-beginners-course/code",
+  "url": "https://github.com/talkpython/python-for-absolute-beginners-course",
+  "run": [],
+  "cmd": "cd python-for-absolute-beginners-course && python code/07-data-structures/rocks-game/rpsgame.py",
+  "desc": "Code samples and other handouts for our course. ",
+  "tag": [],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 50,
+  "name": "lambda-networks",
+  "coderoot": "50/lambda-networks/lambda_networks",
+  "url": "https://github.com/lucidrains/lambda-networks",
+  "run": [],
+  "cmd": "cd lambda-networks && python test.py",
+  "desc": "Implementation of LambdaNetworks, a new approach to image recognition that reaches SOTA with less compute ",
+  "tag": [
+   "ML/DL",
+   "CV"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 51,
+  "name": "dimensionality_reduction_alo_codes",
+  "coderoot": "51/dimensionality_reduction_alo_codes/codes",
+  "url": "https://github.com/heucoder/dimensionality_reduction_alo_codes",
+  "run": [],
+  "cmd": "cd dimensionality_reduction_alo_codes/codes/SVD && python SVD.py",
+  "desc": "特征提取/数据降维:PCA、LDA、MDS、LLE、TSNE等降维算法的python实现 ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 52,
+  "name": "pytorch-openai-transformer-lm",
+  "coderoot": "52/pytorch-openai-transformer-lm",
+  "url": "https://github.com/huggingface/pytorch-openai-transformer-lm",
+  "run": [],
+  "cmd": "cd pytorch-openai-transformer-lm && python test.py",
+  "desc": "A PyTorch implementation of OpenAI's finetuned transformer language model with a script to import the weights pre-trained by OpenAI ",
+  "tag": [
+   "ML/DL",
+   "NLP"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 53,
+  "name": "finetune-transformer-lm",
+  "coderoot": "53/finetune-transformer-lm",
+  "url": "https://github.com/openai/finetune-transformer-lm",
+  "run": [],
+  "cmd": "cd finetune-transformer-lm && python train.py",
+  "desc": "Code and model for the paper \"Improving Language Understanding by Generative Pre-Training\" ",
+  "tag": [
+   "ML/DL",
+   "NLP"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 54,
+  "name": "data-science-blogs",
+  "coderoot": "54/data-science-blogs",
+  "url": "https://github.com/rushter/data-science-blogs",
+  "run": [
+  ],
+  "cmd": "cd data-science-blogs && python generate_opml.py && python frequency.py",
+  "desc": "A curated list of data science blogs",
+  "tag": [
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 55,
+  "name": "SSRSpeed",
+  "coderoot": "55/SSRSpeed",
+  "url": "https://github.com/NyanChanMeow/SSRSpeed",
+  "run": [],
+  "cmd": "cd SSRSpeed && python main.py -c ssrspeed_config.example.json --include 韩国 --include-remark Azure --include-group YoYu",
+  "desc": "Shadowsocks(R), V2Ray Batch Speed Test Tool ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 56,
+  "name": "dirsearch",
+  "coderoot": "56/dirsearch",
+  "url": "https://github.com/maurosoria/dirsearch",
+  "run": [],
+  "cmd": "cd dirsearch && python dirsearch.py http://www.watchman-pypi.com",
+  "desc": "Web path scanner ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 57,
+  "name": "CVE-2020-1472",
+  "coderoot": "57/CVE-2020-1472",
+  "url": "https://github.com/SecuraBV/CVE-2020-1472",
+  "run": [],
+  "cmd": "cd CVE-2020-1472 && python ./zerologon_tester.py EXAMPLE-DC 1.2.3.4",
+  "desc": "Test tool for CVE-2020-1472 ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 58,
+  "name": "30-Days-Of-Python",
+  "coderoot": "58/30-Days-Of-Python/python_for_web",
+  "url": "https://github.com/Asabeneh/30-Days-Of-Python",
+  "run": [],
+  "cmd": "cd 30-Days-Of-Python/python_for_web && python app.py",
+  "desc": " 30 days of Python programming challenge is a step by step guide to learn the Python programming language in 30 days. This challenge may take up to 100 days, follow your own pace. ",
+  "tag": [],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 59,
+  "name": "Vxscan",
+  "coderoot": "59/Vxscan",
+  "url": "https://github.com/al0ne/Vxscan",
+  "run": [],
+  "cmd": "cd Vxscan && python Vxscan.py -i 127.0.0.0/24",
+  "desc": "python3写的综合扫描工具，主要用来存活验证，敏感文件探测(目录扫描/js泄露接口/html注释泄露)，WAF/CDN识别，端口扫描，指纹/服务识别，操作系统识别，POC扫描，SQL注入，绕过CDN，查询旁站等功能，主要用来甲方自测或乙方授权测试，请勿用来搞破坏。",
+  "tag": [
+   "Internet",
+   "security"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 60,
+  "name": "mnssp3-DNA",
+  "coderoot": "60/mnssp3-DNA/DNA/MotifFinding/Python/n-gram/simple",
+  "url": "https://github.com/mpplab/mnssp3",
+  "run": [],
+  "cmd": "cd mnssp3-DNA/DNA/MotifFinding/Python/n-gram/simple && python test.py",
+  "desc": "A Privacy Protection Sharing Platform for Medical Big Data",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 61,
+  "name": "mnssp3-EMR",
+  "coderoot": "61/mnssp3-EMR/EMR/DiabeticRetinopathyDetection/Python/Diabetic_Retinopathy_Detection",
+  "url": "https://github.com/mpplab/mnssp3",
+  "run": [],
+  "cmd": "cd mnssp3-EMR/EMR/DiabeticRetinopathyDetection/Python/Diabetic_Retinopathy_Detection && python test.py",
+  "desc": "A Privacy Protection Sharing Platform for Medical Big Data",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 62,
+  "name": "mnssp3-EEG",
+  "coderoot": "62/mnssp3-EEG/EEG/EpilepsyDetection/Python/EEG",
+  "url": "https://github.com/mpplab/mnssp3",
+  "run": [],
+  "cmd": "cd mnssp3-EEG/EEG/EpilepsyDetection/Python/EEG && python predict.py",
+  "desc": "A Privacy Protection Sharing Platform for Medical Big Data",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 63,
+  "name": "proxylessnas",
+  "coderoot": "63/proxylessnas/proxyless_nas",
+  "url": "https://github.com/mit-han-lab/proxylessnas",
+  "run": [],
+  "cmd": "cd proxylessnas && python test.py",
+  "desc": "[ICLR 2019] ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 64,
+  "name": "sweetviz",
+  "coderoot": "64/sweetviz/sweetviz",
+  "url": "https://github.com/fbdesignpro/sweetviz",
+  "run": [
+   "pip install pandas"
+  ],
+  "cmd": "cd sweetviz && python test.py",
+  "desc": "Visualize and compare datasets, target values and associations, with one line of code",
+  "tag": [
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 65,
+  "name": "policy_sentry",
+  "coderoot": "65/policy_sentry/policy_sentry",
+  "url": "https://github.com/salesforce/policy_sentry",
+  "run": [
+   "cd policy_sentry && pip install . --no-deps"
+  ],
+  "cmd": "policy_sentry create-template --output-file crud.yml --template-type crud",
+  "desc": "IAM Least Privilege Policy Generator ",
+  "tag": [
+   "development"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 66,
+  "name": "noisy",
+  "coderoot": "66/noisy",
+  "url": "https://github.com/1tayH/noisy",
+  "run": [],
+  "cmd": "cd noisy && python noisy.py --config config.json",
+  "desc": "Simple random DNS, HTTP/S internet traffic noise generator ",
+  "tag": [
+   "development",
+   "Internet",
+   "security"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 67,
+  "name": "pytorch-meta",
+  "coderoot": "67/pytorch-meta/torchmeta",
+  "url": "https://github.com/tristandeleu/pytorch-meta",
+  "run": [],
+  "cmd": "cd pytorch-meta && python test.py",
+  "desc": "A collection of extensions and data-loaders for few-shot learning & meta-learning in PyTorch ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 68,
+  "name": "links-uteis",
+  "coderoot": "68/links-uteis",
+  "url": "https://github.com/gabrielcmarinho/links-uteis",
+  "run": [],
+  "cmd": "cd links-uteis && python ordena_md_categoria.py",
+  "desc": "Apunhado de links úteis para o desenvolvimento de projetos de programação e design ",
+  "tag": [],
+  "project_type": "application"
+ },
+ {
+  "id": 69,
+  "name": "WeblogicScan",
+  "coderoot": "69/WeblogicScan",
+  "url": "https://github.com/rabbitmask/WeblogicScan",
+  "run": [],
+  "cmd": "cd WeblogicScan && python WeblogicScan.py -u 127.0.0.1 -p 7001",
+  "desc": "Weblogic一键漏洞检测工具，V1.5，更新时间：20200730 ",
+  "tag": [
+   "Internet",
+   "security"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 70,
+  "name": "heartrate",
+  "coderoot": "70/heartrate/heartrate",
+  "url": "https://github.com/alexmojaki/heartrate",
+  "run": [],
+  "cmd": "cd heartrate && python test.py",
+  "desc": "Simple real time visualisation of the execution of a Python program. ",
+  "tag": [
+   "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 71,
+  "name": "gitGraber",
+  "coderoot": "71/gitGraber",
+  "url": "https://github.com/hisxo/gitGraber",
+  "run": [],
+  "cmd": "cd gitGraber && python gitGraber.py -k keywordsfile.txt -q \"yahoo.com\" -s -m",
+  "desc": "gitGraber: monitor GitHub to search and find sensitive data in real time for different online services such as: Google, Amazon, Paypal, Github, Mailgun, Facebook, Twitter, Heroku, Stripe... ",
+  "tag": [
+   "Internet",
+   "development"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 72,
+  "name": "karateclub",
+  "coderoot": "72/karateclub/karateclub",
+  "url": "https://github.com/benedekrozemberczki/karateclub",
+  "run": [
+   "pip install networkx"
+  ],
+  "cmd": "cd karateclub && python test.py",
+  "desc": "Karate Club: An API Oriented Open-source Python Framework for Unsupervised Learning on Graphs (CIKM 2020) ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 73,
+  "name": "archivy",
+  "coderoot": "73/archivy/archivy",
+  "url": "https://github.com/archivy/archivy",
+  "run": [
+   "cd archivy && pip install . --no-deps"
+  ],
+  "cmd": "archivy --help",
+  "desc": "Archivy is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your own personal, searchable and extendable wiki. ",
+  "tag": [
+   "database"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 74,
+  "name": "gcn",
+  "coderoot": "74/gcn/gcn",
+  "url": "https://github.com/tkipf/gcn",
+  "run": [],
+  "cmd": "cd gcn && python train.py",
+  "desc": "Implementation of Graph Convolutional Networks in TensorFlow ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 75,
+  "name": "leedeeprl-notes",
+  "coderoot": "75/leedeeprl-notes/codes/A2C",
+  "url": "https://github.com/datawhalechina/leedeeprl-notes",
+  "run": [],
+  "cmd": "cd leedeeprl-notes/codes/A2C && python main.py",
+  "desc": "李宏毅《深度强化学习》笔记，在线阅读地址：https://datawhalechina.github.io/leedeeprl-notes/",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 76,
+  "name": "django-vue-template",
+  "coderoot": "76/django-vue-template",
+  "url": "https://github.com/gtalarico/django-vue-template",
+  "run": [],
+  "cmd": "cd django-vue-template && python manage.py runserver",
+  "desc": "Django Rest + Vue JS Template ",
+  "tag": [],
+  "project_type": "application"
+ },
+ {
+  "id": 77,
+  "name": "GScan",
+  "coderoot": "77/GScan",
+  "url": "https://github.com/grayddq/GScan",
+  "run": [],
+  "cmd": "cd GScan && python GScan.py",
+  "desc": "本程序旨在为安全应急响应人员对Linux主机排查时提供便利，实现主机侧Checklist的自动全面化检测，根据检测结果自动数据聚合，进行黑客攻击路径溯源。 ",
+  "tag": [
+   "security"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 78,
+  "name": "distribution-is-all-you-need",
+  "coderoot": "78/distribution-is-all-you-need",
+  "url": "https://github.com/graykode/distribution-is-all-you-need",
+  "run": [],
+  "cmd": "cd distribution-is-all-you-need && python uniform.py",
+  "desc": "The basic distribution probability Tutorial for Deep Learning Researchers ",
+  "tag": [
+   "distribution",
+   "ML/DL"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 79,
+  "name": "flops-counter.pytorch",
+  "coderoot": "79/flops-counter.pytorch/ptflops",
+  "url": "https://github.com/sovrasov/flops-counter.pytorch",
+  "run": ["pip install torchvision"],
+  "cmd": "cd flops-counter.pytorch && python test.py",
+  "desc": "Flops counter for convolutional networks in pytorch framework ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 80,
+  "name": "PyInquirer",
+  "coderoot": "80/PyInquirer/PyInquirer",
+  "url": "https://github.com/CITGuru/PyInquirer",
+  "run": [],
+  "cmd": "cd PyInquirer && python test.py",
+  "desc": "A Python module for common interactive command line user interfaces ",
+  "tag": [
+    "development"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 81,
+  "name": "sparse_attention",
+  "coderoot": "81/sparse_attention",
+  "url": "https://github.com/openai/sparse_attention",
+  "run": [],
+  "cmd": "cd sparse_attention && python attention.py",
+  "desc": "Examples of using sparse attention, as in \"Generating Long Sequences with Sparse Transformers\" ",
+  "tag": [
+   "ML/DL",
+   "NLP"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 82,
+  "name": "micronet",
+  "coderoot": "82/micronet/micronet",
+  "url": "https://github.com/666DZY666/micronet",
+  "run": [],
+  "cmd": "cd micronet && python -c \"import micronet; print(micronet.__version__)\"",
+  "desc": "micronet, a model compression and deploy lib. compression: 1、quantization: quantization-aware-training(QAT), High-Bit(>2b)(DoReFa/Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference)、Low-Bit(≤2b)/Ternary and Binary(TWN/BNN/XNOR-Net); post-training-quantization(PTQ), 8-bit(tensorrt); 2、 pruning: normal、reg…",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 83,
+  "name": "machine_learning_examples",
+  "coderoot": "83/machine_learning_examples/cnn_class",
+  "url": "https://github.com/lazyprogrammer/machine_learning_examples",
+  "run": [],
+  "cmd": "cd machine_learning_examples/cnn_class && python edge_benchmark.py",
+  "desc": "HA collection of machine learning examples and tutorials. ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 84,
+  "name": "BlueKeep",
+  "coderoot": "84/BlueKeep",
+  "url": "https://github.com/Ekultek/BlueKeep",
+  "run": [],
+  "cmd": "cd BlueKeep && python bluekeep_dos.py -i 127.0.0.1",
+  "desc": "Proof of concept for CVE-2019-0708 ",
+  "tag": [],
+  "project_type": "application"
+ },
+ {
+  "id": 85,
+  "name": "wechat_friends",
+  "coderoot": "85/wechat_friends",
+  "url": "https://github.com/yangxuanxc/wechat_friends",
+  "run": [],
+  "cmd": "cd wechat_friends && python get_user_info.py",
+  "desc": "微信好友信息分析并可视化以及自动回复微信消息 ",
+  "tag": [
+   "NLP"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 86,
+  "name": "petastorm",
+  "coderoot": "86/petastorm/petastorm",
+  "url": "https://github.com/uber/petastorm",
+  "run": [],
+  "cmd": "cd petastorm && python test.py",
+  "desc": "Petastorm library enables single machine or distributed training and evaluation of deep learning models from datasets in Apache Parquet format. It supports ML frameworks such as Tensorflow, Pytorch, and PySpark and can be used from pure Python code. ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 87,
+  "name": "blackhat-python3",
+  "coderoot": "87/blackhat-python3/chapter04",
+  "url": "https://github.com/EONRaider/blackhat-python3",
+  "run": [],
+  "cmd": "cd blackhat-python3/chapter04 && python pic_carver.py",
+  "desc": "Source code for the book \"Black Hat Python\" by Justin Seitz. The code has been fully converted to Python 3, reformatted to comply with PEP8 standards and refactored to eliminate dependency issues involving the implementation of deprecated libraries.",
+  "tag": [
+    "security"
+  ],
+  "project_type": "tutorial"
+ },
+ {
+  "id": 88,
+  "name": "neural_prophet",
+  "coderoot": "88/neural_prophet/neuralprophet",
+  "url": "https://github.com/ourownstory/neural_prophet",
+  "run": [],
+  "cmd": "cd neural_prophet && python test.py",
+  "desc": "NeuralProphet - A simple forecasting model based on Neural Networks in PyTorch ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 89,
+  "name": "pyp",
+  "coderoot": "89/pyp/pyp.py",
+  "url": "https://github.com/hauntsaninja/pyp",
+  "run": [
+   "cd pyp && pip install . --no-deps"
+  ],
+  "cmd": "ps x | pyp 'line.split()[4]'",
+  "desc": "Easily run Python at the shell. Magical, but never mysterious. ",
+  "tag": [
+   "development"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 90,
+  "name": "SimpleHTR",
+  "coderoot": "90/SimpleHTR/src",
+  "url": "https://github.com/githubharald/SimpleHTR",
+  "run": [],
+  "cmd": "cd SimpleHTR/src && python main.py",
+  "desc": "Handwritten Text Recognition (HTR) system implemented with TensorFlow. ",
+  "tag": [
+   "ML/DL",
+   "NLP",
+   "CV"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 91,
+  "name": "SuperGluePretrainedNetwork",
+  "coderoot": "91/SuperGluePretrainedNetwork",
+  "url": "https://github.com/magicleap/SuperGluePretrainedNetwork",
+  "run": [],
+  "cmd": "cd SuperGluePretrainedNetwork && python match_pairs.py",
+  "desc": "SuperGlue: Learning Feature Matching with Graph Neural Networks (CVPR 2020, Oral) ",
+  "tag": [
+   "ML/DL",
+   "CV"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 92,
+  "name": "SuperPointPretrainedNetwork",
+  "coderoot": "92/SuperPointPretrainedNetwork",
+  "url": "https://github.com/magicleap/SuperPointPretrainedNetwork",
+  "run": [],
+  "cmd": "cd SuperPointPretrainedNetwork&& ./demo_superpoint.py assets/icl_snippet/ --W=640 --H=480 --no_display --write --write_dir=myoutput/",
+  "desc": "PyTorch pre-trained model for real-time interest point detection, description, and sparse tracking ",
+  "tag": [
+   "ML/DL",
+   "CV"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 93,
+  "name": "pydub",
+  "coderoot": "93/pydub/pydub",
+  "url": "https://github.com/jiaaro/pydub",
+  "run": [],
+  "cmd": "cd pydub && python test.py",
+  "desc": "Manipulate audio with a simple and easy high level interface",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 94,
+  "name": "efficientnet",
+  "coderoot": "94/efficientnet/efficientnet",
+  "url": "https://github.com/qubvel/efficientnet",
+  "run": ["pip install keras"],
+  "cmd": "cd efficientnet && python test.py",
+  "desc": "Implementation of EfficientNet model. Keras and TensorFlow Keras. ",
+  "tag": [
+   "ML/DL",
+   "CV"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 95,
+  "name": "tensorflow-yolov3",
+  "coderoot": "95/tensorflow-yolov3/",
+  "url": "https://github.com/YunYang1994/tensorflow-yolov3",
+  "run": [],
+  "cmd": "cd tensorflow-yolov3 && python image_demo.py",
+  "desc": "TensorFlow Code for technical report: \"YOLOv3: An Incremental Improvement\"",
+  "tag": [
+   "ML/DL",
+   "CV"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 96,
+  "name": "BERT-BiLSTM-CRF-NER",
+  "coderoot": "96/BERT-BiLSTM-CRF-NER",
+  "url": "https://github.com/macanv/BERT-BiLSTM-CRF-NER",
+  "run": [
+   "cd BERT-BiLSTM-CRF-NER && pip install . --no-deps"
+  ],
+  "cmd": "bert-base-serving-start -help && bert-base-ner-train -help",
+  "desc": "Tensorflow solution of NER task Using BiLSTM-CRF model with Google BERT Fine-tuning",
+  "tag": [
+   "ML/DL",
+   "NLP"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 97,
+  "name": "mars",
+  "coderoot": "97/mars/mars",
+  "url": "https://github.com/mars-project/mars",
+  "run": [
+   "pip install mars --no-deps"
+  ],
+  "cmd": "cd mars/tests && python test.py",
+  "desc": "Mars is a tensor-based unified framework for large-scale data computation which scales Numpy, Pandas and Scikit-learn.",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "pure 3rd-party package"
+ },
+ {
+  "id": 98,
+  "name": "jina",
+  "coderoot": "98/jina/jina",
+  "url": "https://github.com/jina-ai/jina",
+  "run": [
+   "pip install jina --no-deps"
+  ],
+  "cmd": "jina hello-world",
+  "desc": "An easier way to build neural search in the cloud",
+  "tag": [
+   "ML/DL",
+   "Internet",
+   "CV"
+  ],
+  "project_type": "application"
+ },
+ {
+  "id": 99,
+  "name": "starlette",
+  "coderoot": "99/starlette/starlette",
+  "url": "https://github.com/encode/starlette",
+  "run": [],
+  "cmd": "cd starlette && python test.py",
+  "desc": "The little ASGI framework that shines",
+  "tag": [
+   "database"
+  ],
+  "project_type": "pure 3rd-party package"
+ }
+]

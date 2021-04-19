@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/jina", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.8/site-packages/cli/__init__.py", line 104, in main
+    args = _get_run_args()
+  File "/usr/local/lib/python3.8/site-packages/cli/__init__.py", line 8, in _get_run_args
+    from jina.logging import default_logger
+  File "/usr/local/lib/python3.8/site-packages/jina/__init__.py", line 19, in <module>
+    from google.protobuf.internal import api_implementation as _api_implementation
+ModuleNotFoundError: No module named 'google'

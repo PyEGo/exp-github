@@ -1,0 +1,5 @@
+six==1.15.0
+numpy==1.19.4
+keras_applications==1.0.8
+skimage==0.0
+tensorflow==2.4.1

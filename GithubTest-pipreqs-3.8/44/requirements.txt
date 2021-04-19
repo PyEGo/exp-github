@@ -1,0 +1,5 @@
+Click==7.0
+Pygments==2.3.1
+requests==2.25.0
+Jinja2==2.11.3
+typesystem==0.2.4

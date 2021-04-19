@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/WeblogicScan/WeblogicScan.py", line 13, in <module>
+    from config.config_console import Weblogic_Console
+  File "/WeblogicScan/config/config_console.py", line 14, in <module>
+    from poc.index import *
+  File "/WeblogicScan/poc/index.py", line 10, in <module>
+    from poc import Console
+  File "/WeblogicScan/poc/Console.py", line 13, in <module>
+    from config.config_requests import headers
+  File "/WeblogicScan/config/config_requests.py", line 10, in <module>
+    from fake_useragent import UserAgent
+ModuleNotFoundError: No module named 'fake_useragent'

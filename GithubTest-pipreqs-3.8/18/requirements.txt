@@ -1,0 +1,5 @@
+requests==2.25.0
+pandas==1.2.0
+fake_useragent==0.1.11
+lxml==4.6.2
+selenium==3.141.0

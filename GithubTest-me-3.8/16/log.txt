@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/kb", line 5, in <module>
+    from kb.main import main
+  File "/usr/local/lib/python3.8/site-packages/kb/main.py", line 18, in <module>
+    from kb.cl_parser import parse_args
+  File "/usr/local/lib/python3.8/site-packages/kb/cl_parser.py", line 21, in <module>
+    from kb.config import DEFAULT_CONFIG,DEFAULT_KNOWLEDGEBASE
+  File "/usr/local/lib/python3.8/site-packages/kb/config.py", line 20, in <module>
+    import toml
+ModuleNotFoundError: No module named 'toml'

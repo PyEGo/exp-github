@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "test.py", line 2, in <module>
+    import latexify
+  File "/latexify_py/latexify/__init__.py", line 16, in <module>
+    from latexify import core
+  File "/latexify_py/latexify/core.py", line 21, in <module>
+    import dill
+ModuleNotFoundError: No module named 'dill'

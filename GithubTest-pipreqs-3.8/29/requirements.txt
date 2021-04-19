@@ -1,0 +1,3 @@
+absl==0.0
+Pillow==8.1.2
+PyYAML==5.4.1
