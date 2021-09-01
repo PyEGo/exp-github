@@ -1,2 +1,0 @@
-opencv_python==4.5.1.48
-kamene==0.32

@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "learn_math_fast/build_toc.py", line 67, in <module>
-    gen_toc(filename)
-  File "learn_math_fast/build_toc.py", line 53, in gen_toc
-    md = _read_md(filename)
-  File "learn_math_fast/build_toc.py", line 48, in _read_md
-    with open(filename, 'r') as f:
-FileNotFoundError: [Errno 2] No such file or directory: 'README.md'

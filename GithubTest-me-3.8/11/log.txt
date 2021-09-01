@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "oneforall.py", line 11, in <module>
-    import fire
-ModuleNotFoundError: No module named 'fire'

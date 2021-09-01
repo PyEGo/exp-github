@@ -1,0 +1,14 @@
+psutil==5.8.0
+Click==7.0
+attrs==21.2.0
+appdirs==1.4.4
+attr==0.3.1
+desert==2020.11.18
+marshmallow==3.13.0
+packaging==21.0
+pendulum==2.1.2
+pyfakefs==4.5.0
+pytest==6.2.4
+PyYAML==5.4.1
+texttable==1.6.4
+typing_extensions==3.10.0.0

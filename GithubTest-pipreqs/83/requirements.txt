@@ -1,0 +1,9 @@
+six==1.15.0
+numpy==1.19.4
+joblib==1.0.0
+networkx==2.5.1
+scipy==1.5.4
+nltk==3.6.2
+scikit_learn==0.24.2
+sent2vec==0.2.0
+spacy==3.1.1

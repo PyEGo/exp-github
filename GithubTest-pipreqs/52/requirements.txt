@@ -1,0 +1,7 @@
+pandas==1.2.0
+tqdm==4.54.1
+numpy==1.19.4
+ftfy==6.0.3
+scikit_learn==0.24.2
+spacy==3.1.1
+torch==1.9.0

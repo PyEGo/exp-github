@@ -1,5 +1,0 @@
-scipy==1.5.4
-numpy==1.19.4
-gcn==0.0.1
-networkx==2.5
-tensorflow==2.4.1

@@ -1,0 +1,119 @@
+2021-08-18 18:20:04,929 [INFO]  ----------START----------
+2021-08-18 18:20:39,542 [ERROR]  Command 'None' in image 'sha256:4fc7c0926c59be27f5a3a99029770f8ecace9671ef707a9bb7f37aa92a92fb59' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/tiler/gen_tiles.py", line 1, in <module>\n    import cv2 \n  File "/usr/local/lib/python3.9/site-packages/cv2/__init__.py", line 5, in <module>\n    from .cv2 import *\nImportError: libGL.so.1: cannot open shared object file: No such file or directory\n'
+2021-08-18 18:20:39,542 [ERROR]  <proc0> tiler: RunFailed
+2021-08-18 18:21:26,484 [INFO]  <proc0> metaflow: Success
+2021-08-18 18:21:48,700 [INFO]  <proc0> tinygrad: Success
+2021-08-18 18:23:29,116 [INFO]  <proc0> sktime: Success
+2021-08-18 18:23:55,946 [INFO]  <proc0> scalene: Success
+2021-08-18 18:25:18,867 [INFO]  <proc0> Python-crawler-tutorial-starts-from-zero: Success
+2021-08-18 18:25:35,135 [INFO]  <proc0> jd-assistant: Success
+2021-08-18 18:25:53,724 [INFO]  <proc0> autoscraper: Inconsistent
+2021-08-18 18:26:04,885 [INFO]  <proc0> bullet: Success
+2021-08-18 18:26:24,526 [INFO]  <proc0> pipx: Success
+2021-08-18 18:26:33,652 [ERROR]  <proc0> chinese_province_city_area_mapper: BuildFailed
+2021-08-18 18:26:50,585 [ERROR]  <proc0> OneForAll: BuildFailed
+2021-08-18 18:27:02,324 [INFO]  <proc0> learn_math_fast: Success
+2021-08-18 18:27:16,869 [ERROR]  <proc0> akshare: BuildFailed
+2021-08-18 18:28:27,618 [ERROR]  Command 'None' in image 'sha256:1ce0816f014bd2f67e9726fb4410f0524255080e5c718a90d8aed48ed8774efb' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/ASCII-generator/img2img.py", line 5, in <module>\n    import cv2\n  File "/usr/local/lib/python3.9/site-packages/cv2/__init__.py", line 5, in <module>\n    from .cv2 import *\nImportError: libGL.so.1: cannot open shared object file: No such file or directory\n'
+2021-08-18 18:28:27,619 [ERROR]  <proc0> ASCII-generator: RunFailed
+2021-08-18 18:29:33,555 [INFO]  <proc0> pyts: Success
+2021-08-18 18:29:44,331 [ERROR]  <proc0> SimCSE: BuildFailed
+2021-08-18 18:33:37,696 [INFO]  <proc0> ResNeSt: Success
+2021-08-18 18:34:33,358 [INFO]  <proc0> OpenData: Success
+2021-08-18 18:34:39,855 [ERROR]  <proc0> w9scan: BuildFailed
+2021-08-18 18:37:13,896 [INFO]  <proc0> RAdam: Success
+2021-08-18 18:37:34,029 [INFO]  <proc0> newscatcher: Inconsistent
+2021-08-18 18:38:04,852 [INFO]  <proc0> GitHub520: Success
+2021-08-18 18:40:55,618 [INFO]  <proc0> vit-pytorch: Success
+2021-08-18 18:41:11,182 [ERROR]  Command 'None' in image 'sha256:2197f272cb6c5707695ffdf5af355090e3676c4d5ecdfad1d9dc9319f4b0cfe1' returned non-zero exit status 2: b"python: can't open file '/Flask-HTTPAuth/src/test.py': [Errno 2] No such file or directory\n"
+2021-08-18 18:41:11,182 [ERROR]  <proc0> Flask-HTTPAuth: Safe
+2021-08-18 18:41:16,445 [ERROR]  <proc0> real-url: BuildFailed
+2021-08-18 18:41:33,966 [ERROR]  <proc0> clearml: BuildFailed
+2021-08-18 18:45:28,869 [INFO]  <proc0> captum: Success
+2021-08-18 18:45:45,303 [INFO]  <proc0> logzero: Success
+2021-08-18 18:45:57,781 [ERROR]  <proc0> arxiv-latex-cleaner: BuildFailed
+2021-08-18 18:46:22,980 [INFO]  <proc0> GeneralNewsExtractor: Success
+2021-08-18 18:46:39,742 [ERROR]  Command 'None' in image 'sha256:a17c37ca3da3a4a49767762574f9d56abfccc1c58d1e7d5fa3adda35c9a52097' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/DXY-COVID-19-Crawler/main.py", line 12, in <module>\n    crawler.run()\n  File "/DXY-COVID-19-Crawler/service/crawler.py", line 31, in run\n    self.crawler()\n  File "/DXY-COVID-19-Crawler/service/crawler.py", line 46, in crawler\n    soup = BeautifulSoup(r.content, \'lxml\')\n  File "/usr/local/lib/python3.9/site-packages/bs4/__init__.py", line 243, in __init__\n    raise FeatureNotFound(\nbs4.FeatureNotFound: Couldn\'t find a tree builder with the features you requested: lxml. Do you need to install a parser library?\n'
+2021-08-18 18:46:39,743 [ERROR]  <proc0> DXY-COVID-19-Crawler: Safe
+2021-08-18 18:46:53,055 [INFO]  <proc0> pwnedOrNot: Success
+2021-08-18 18:47:42,085 [INFO]  <proc0> gplearn: Success
+2021-08-18 18:48:22,220 [INFO]  <proc0> m2cgen: Success
+2021-08-18 18:48:27,502 [ERROR]  <proc0> dirmap: BuildFailed
+2021-08-18 18:48:35,955 [ERROR]  <proc0> latexify_py: BuildFailed
+2021-08-18 18:49:06,022 [ERROR]  Command 'None' in image 'sha256:2bfc234d59ae1eab2bd338cf6797729b9feeda37e2f1cb3388b55a9400c439cf' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/springer_free_books/main.py", line 48, in <module>\n    books = pd.read_excel(table_url)\n  File "/usr/local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 299, in wrapper\n    return func(*args, **kwargs)\n  File "/usr/local/lib/python3.9/site-packages/pandas/io/excel/_base.py", line 336, in read_excel\n    io = ExcelFile(io, storage_options=storage_options, engine=engine)\n  File "/usr/local/lib/python3.9/site-packages/pandas/io/excel/_base.py", line 1114, in __init__\n    self._reader = self._engines[engine](self._io, storage_options=storage_options)\n  File "/usr/local/lib/python3.9/site-packages/pandas/io/excel/_xlrd.py", line 24, in __init__\n    import_optional_dependency("xlrd", extra=err_msg)\n  File "/usr/local/lib/python3.9/site-packages/pandas/compat/_optional.py", line 109, in import_optional_dependency\n    raise ImportError(msg) from None\nImportError: Missing optional dependency \'xlrd\'. Install xlrd >= 1.0.0 for Excel support Use pip or conda to install xlrd.\n'
+2021-08-18 18:49:06,022 [ERROR]  <proc0> springer_free_books: RunFailed
+2021-08-18 18:49:26,549 [INFO]  <proc0> bilibili-api: Inconsistent
+2021-08-18 18:49:35,941 [ERROR]  <proc0> babel: BuildFailed
+2021-08-18 18:49:47,168 [INFO]  <proc0> coding-problems: Success
+2021-08-18 18:50:00,502 [INFO]  <proc0> dongbei: Success
+2021-08-18 18:50:15,082 [INFO]  <proc0> returns: Inconsistent
+2021-08-18 18:50:31,126 [INFO]  <proc0> xxh: Success
+2021-08-18 18:51:00,031 [ERROR]  Command 'None' in image 'sha256:1787327f4059b899e2d8b54167fab62391c9034e241a79d2b596fd9a90f71316' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/blind_watermark/test.py", line 1, in <module>\n    from blind_watermark import WaterMark\n  File "/blind_watermark/blind_watermark/__init__.py", line 1, in <module>\n    from .blind_watermark import WaterMark\n  File "/blind_watermark/blind_watermark/blind_watermark.py", line 8, in <module>\n    import cv2\n  File "/usr/local/lib/python3.9/site-packages/cv2/__init__.py", line 5, in <module>\n    from .cv2 import *\nImportError: libGL.so.1: cannot open shared object file: No such file or directory\n'
+2021-08-18 18:51:00,032 [ERROR]  <proc0> blind_watermark: RunFailed
+2021-08-18 18:51:54,379 [INFO]  <proc0> pandarallel: Success
+2021-08-18 18:52:00,304 [ERROR]  <proc0> DecryptLogin: BuildFailed
+2021-08-18 18:52:12,302 [ERROR]  <proc0> webpy: BuildFailed
+2021-08-18 18:52:53,782 [INFO]  <proc0> SSRFmap: Success
+2021-08-18 18:52:59,126 [ERROR]  <proc0> doublepulsar-detection-script: BuildFailed
+2021-08-18 20:43:41,730 [INFO]  <proc0> lambda-networks: Success
+2021-08-18 20:44:01,182 [ERROR]  Command 'None' in image 'sha256:2936da060a5a4139f37d57d10153563d1ab8983637480fd4f5814d33ef572bbf' returned non-zero exit status 1: b'  File "/weakfilescan/wyspider.py", line 17\n    print json.dumps(start_wyspider(sys.argv[1]), indent=2)\n          ^\nSyntaxError: invalid syntax\n'
+2021-08-18 20:44:01,182 [ERROR]  <proc0> weakfilescan: RunFailed
+2021-08-18 20:48:03,591 [INFO]  <proc0> pytorch-openai-transformer-lm: Success
+2021-08-18 20:48:14,983 [ERROR]  <proc0> pwncat: BuildFailed
+2021-08-18 20:49:20,944 [INFO]  <proc0> uncertainty-toolbox: Success
+2021-08-18 20:49:48,143 [ERROR]  Command 'None' in image 'sha256:11c88ec53423b85783c2741eba3fd2a46f17a93143f1faf7759775cef9712653' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/SSRSpeed/main.py", line 78, in <module>\n    input("Press ENTER to conitnue or Crtl+C to exit.")\nEOFError: EOF when reading a line\n'
+2021-08-18 20:49:48,143 [ERROR]  <proc0> SSRSpeed: Safe
+2021-08-18 20:50:07,852 [ERROR]  Command 'None' in image 'sha256:398b05e88a51d5ee5e475e805ea4c3639eba3856605cc3c669a4e59208cd1e6c' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/dirsearch/dirsearch.py", line 27, in <module>\n    from lib.core import ArgumentParser\n  File "/dirsearch/lib/core/__init__.py", line 3, in <module>\n    from .fuzzer import *  # noqa: F401\n  File "/dirsearch/lib/core/fuzzer.py", line 22, in <module>\n    from lib.connection.request_exception import RequestException\n  File "/dirsearch/lib/connection/__init__.py", line 2, in <module>\n    from .requester import *  # noqa: F401\n  File "/dirsearch/lib/connection/requester.py", line 24, in <module>\n    import thirdparty.requests as requests\n  File "/dirsearch/thirdparty/requests/__init__.py", line 43, in <module>\n    import urllib3\nModuleNotFoundError: No module named \'urllib3\'\n'
+2021-08-18 20:50:07,853 [ERROR]  <proc0> dirsearch: RunFailed
+2021-08-18 20:51:29,473 [INFO]  <proc0> commitment: Success
+2021-08-18 20:52:54,959 [INFO]  <proc0> 30-Days-Of-Python: Success
+2021-08-18 20:53:11,930 [ERROR]  <proc0> Vxscan: BuildFailed
+2021-08-18 20:53:22,375 [ERROR]  <proc0> galaxy-integrations-python-api: BuildFailed
+2021-08-18 20:53:46,610 [INFO]  <proc0> mitm6: Success
+2021-08-18 20:55:17,090 [INFO]  <proc0> flask-celery-example: Success
+2021-08-18 20:58:14,444 [INFO]  <proc0> proxylessnas: Success
+2021-08-18 20:58:54,065 [ERROR]  Command 'None' in image 'sha256:55d0818f4e480815b9def7f57da70457decef7d7812b8787c1e370e1c1504104' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/sweetviz/test.py", line 2, in <module>\n    import sweetviz as sv\n  File "/sweetviz/sweetviz/__init__.py", line 9, in <module>\n    from sweetviz.sv_public import analyze, compare, compare_intra\n  File "/sweetviz/sweetviz/sv_public.py", line 4, in <module>\n    import sweetviz.dataframe_report\n  File "/sweetviz/sweetviz/dataframe_report.py", line 6, in <module>\n    from tqdm.auto import tqdm\nModuleNotFoundError: No module named \'tqdm\'\n'
+2021-08-18 20:58:54,065 [ERROR]  <proc0> sweetviz: RunFailed
+2021-08-18 20:59:18,278 [INFO]  <proc0> policy_sentry: Success
+2021-08-18 21:00:40,672 [INFO]  <proc0> noisy: Success
+2021-08-18 21:06:06,766 [ERROR]  <proc0> pytorch-meta: BuildFailed
+2021-08-18 21:06:18,455 [INFO]  <proc0> path: Success
+2021-08-18 21:06:32,942 [INFO]  <proc0> WeblogicScan: Success
+2021-08-18 21:08:03,098 [INFO]  <proc0> heartrate: Inconsistent
+2021-08-18 21:08:24,873 [ERROR]  <proc0> plotman: BuildFailed
+2021-08-18 21:08:54,092 [ERROR]  <proc0> karateclub: BuildFailed
+2021-08-18 21:09:07,306 [ERROR]  <proc0> archivy: BuildFailed
+2021-08-18 21:12:11,348 [ERROR]  Command 'None' in image 'sha256:aaf05af2ec538afdf3ce1c5bc02090ac132ed0725df0e6aedb7acd8e3960545d' returned non-zero exit status 1: b'2021-08-18 13:12:08.203240: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library \'libcudart.so.11.0\'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory\n2021-08-18 13:12:08.203270: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.\nTraceback (most recent call last):\n  File "/gcn/train.py", line 8, in <module>\n    from gcn.models import GCN, MLP\n  File "/gcn/gcn/models.py", line 1, in <module>\n    from gcn.layers import *\n  File "/gcn/gcn/layers.py", line 4, in <module>\n    flags = tf.app.flags\nAttributeError: module \'tensorflow\' has no attribute \'app\'\n'
+2021-08-18 21:12:11,348 [ERROR]  <proc0> gcn: Safe
+2021-08-18 21:12:40,581 [ERROR]  <proc0> sentry-python: BuildFailed
+2021-08-18 21:14:13,056 [INFO]  <proc0> django-vue-template: Inconsistent
+2021-08-18 21:15:15,704 [INFO]  <proc0> GScan: Success
+2021-08-18 21:15:25,230 [ERROR]  <proc0> kaldi-gstreamer-server: BuildFailed
+2021-08-18 21:19:34,467 [INFO]  <proc0> flops-counter.pytorch: Success
+2021-08-18 21:19:51,088 [ERROR]  <proc0> Profil3r: BuildFailed
+2021-08-18 21:20:34,367 [INFO]  <proc0> nba_api: Success
+2021-08-18 21:24:48,906 [ERROR]  <proc0> micronet: BuildFailed
+2021-08-18 21:40:34,085 [INFO]  <proc0> pke: Inconsistent
+2021-08-18 21:41:05,033 [INFO]  <proc0> BlueKeep: Success
+2021-08-18 21:41:28,430 [INFO]  <proc0> pygooglenews: Success
+2021-08-18 21:42:58,264 [ERROR]  <proc0> petastorm: BuildFailed
+2021-08-18 21:43:36,090 [ERROR]  Command 'None' in image 'sha256:800f2eafaaacde9f67197b00ec0f3cc7fcaac839ca23cea89cf24025f2fddb72' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/blackhat-python3/chapter04/pic_carver.py", line 1, in <module>\n    import cv2\n  File "/usr/local/lib/python3.9/site-packages/cv2/__init__.py", line 5, in <module>\n    from .cv2 import *\nImportError: libGL.so.1: cannot open shared object file: No such file or directory\n'
+2021-08-18 21:43:36,090 [ERROR]  <proc0> blackhat-python3: RunFailed
+2021-08-18 21:43:49,701 [ERROR]  <proc0> neural_prophet: BuildFailed
+2021-08-18 21:43:54,902 [ERROR]  <proc0> pyp: BuildFailed
+2021-08-18 21:47:25,690 [ERROR]  Command 'None' in image 'sha256:4e81b7c5a8203d551ad2133560ae5ffec6846220dc4fab1a9f780a4f15e0a033' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/SimpleHTR/src/main.py", line 6, in <module>\n    import cv2\n  File "/usr/local/lib/python3.9/site-packages/cv2/__init__.py", line 5, in <module>\n    from .cv2 import *\nImportError: libGL.so.1: cannot open shared object file: No such file or directory\n'
+2021-08-18 21:47:25,690 [ERROR]  <proc0> SimpleHTR: RunFailed
+2021-08-18 21:51:59,998 [ERROR]  Command 'None' in image 'sha256:bb9088c6b74dc2971a32189f8ba29cdd036a64b3ed36b0170c4824fe36b73ef2' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/SuperGluePretrainedNetwork/match_pairs.py", line 56, in <module>\n    from models.utils import (compute_pose_error, compute_epipolar_error,\n  File "/SuperGluePretrainedNetwork/models/utils.py", line 50, in <module>\n    import cv2\n  File "/usr/local/lib/python3.9/site-packages/cv2/__init__.py", line 5, in <module>\n    from .cv2 import *\nImportError: libGL.so.1: cannot open shared object file: No such file or directory\n'
+2021-08-18 21:51:59,998 [ERROR]  <proc0> SuperGluePretrainedNetwork: RunFailed
+2021-08-18 21:59:02,599 [ERROR]  Command 'None' in image 'sha256:6d57de47caa8d498285b79e2d20d4d2ced64c47a16ed01957232edee16943222' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/SuperPointPretrainedNetwork/./demo_superpoint.py", line 53, in <module>\n    import cv2\n  File "/usr/local/lib/python3.9/site-packages/cv2/__init__.py", line 5, in <module>\n    from .cv2 import *\nImportError: libGL.so.1: cannot open shared object file: No such file or directory\n'
+2021-08-18 21:59:02,600 [ERROR]  <proc0> SuperPointPretrainedNetwork: RunFailed
+2021-08-18 21:59:35,167 [ERROR]  Command 'None' in image 'sha256:2f166424e61e0a8922d4a85c7099b6cea769f732d0913918500fec71d30dcc2a' returned non-zero exit status 1: b'Traceback (most recent call last):\n  File "/Packer-Fuzzer/PackerFuzzer.py", line 4, in <module>\n    from lib.Controller import Project\n  File "/Packer-Fuzzer/lib/Controller.py", line 16, in <module>\n    from lib.CreateReport import CreateReport\n  File "/Packer-Fuzzer/lib/CreateReport.py", line 5, in <module>\n    from docx import Document   #\xe7\x94\xa8\xe6\x9d\xa5\xe5\xbb\xba\xe7\xab\x8b\xe4\xb8\x80\xe4\xb8\xaaword\xe5\xaf\xb9\xe8\xb1\xa1\n  File "/usr/local/lib/python3.9/site-packages/docx.py", line 30, in <module>\n    from exceptions import PendingDeprecationWarning\nModuleNotFoundError: No module named \'exceptions\'\n'
+2021-08-18 21:59:35,168 [ERROR]  <proc0> Packer-Fuzzer: RunFailed
+2021-08-18 21:59:52,376 [ERROR]  <proc0> efficientnet: BuildFailed
+2021-08-18 21:59:57,632 [ERROR]  <proc0> tensorflow-yolov3: BuildFailed
+2021-08-18 22:00:13,823 [INFO]  <proc0> doge: Success
+2021-08-18 22:00:29,045 [ERROR]  <proc0> mars: BuildFailed
+2021-08-18 22:00:50,338 [INFO]  <proc0> peru: Success
+2021-08-18 22:01:11,509 [INFO]  <proc0> starlette: Inconsistent
+2021-08-18 22:01:11,510 [INFO]  45/100, 0.45
+2021-08-18 22:01:11,510 [INFO]  ----------END----------

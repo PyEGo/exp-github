@@ -1,0 +1,14 @@
+pandas==1.2.0
+six==1.15.0
+tqdm==4.54.1
+requests==2.25.0
+numpy==1.19.4
+academictorrents==2.3.3
+h5py==3.3.0
+munkres==1.1.4
+ordered_set==4.0.2
+Pillow==8.3.1
+pytest==6.2.4
+torch==1.9.0
+torchmeta==1.7.0
+torchvision==0.10.0

@@ -1,5 +1,4 @@
-FROM python:3.9
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:3.8-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install ca-certificates -y
@@ -31,14 +30,14 @@ RUN apt-get install libquadmath0 -y
 RUN apt-get install libssl-dev -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install numpy==1.19.4
-RUN pip install pillow==8.0.1
-RUN pip install tqdm==4.54.1
+RUN pip install pillow==8.2.0
+RUN pip install numpy==1.20.3
+RUN pip install tqdm==4.60.0
 RUN pip install requests==2.25.0
-RUN pip install mxnet==1.7.0.post1
+RUN pip install mxnet==1.8.0.post0
 RUN pip install mxnet-mkl==1.6.0
-RUN pip install torchvision==0.8.2
-RUN pip install gluoncv==0.9.0
+RUN pip install torchvision==0.9.1
+RUN pip install gluoncv==0.10.1.post0
 ADD ResNeSt ResNeSt
 # add CMD command to run your programs here
 CMD cd ResNeSt && python test.py

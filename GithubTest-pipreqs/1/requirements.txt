@@ -1,0 +1,9 @@
+pandas==1.2.0
+requests==2.25.0
+Click==7.0
+boto3==1.18.23
+botocore==1.21.23
+coverage==5.5
+editdistance==0.5.3
+metaflow==2.3.4
+pylint==2.9.6

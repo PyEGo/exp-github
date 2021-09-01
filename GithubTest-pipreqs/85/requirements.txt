@@ -1,0 +1,4 @@
+requests==2.25.0
+beautifulsoup4==4.9.3
+dateparser==1.0.0
+feedparser==6.0.8

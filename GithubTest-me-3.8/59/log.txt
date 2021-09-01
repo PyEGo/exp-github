@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "Vxscan.py", line 10, in <module>
-    from lib.cli_output import banner
-ModuleNotFoundError: No module named 'lib.cli_output'

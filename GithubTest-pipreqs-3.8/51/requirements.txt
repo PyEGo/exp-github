@@ -1,5 +1,0 @@
-matplotlib==3.3.3
-numpy==1.19.4
-scipy==1.5.4
-scikit_learn==0.24.1
-tensorflow==2.4.1

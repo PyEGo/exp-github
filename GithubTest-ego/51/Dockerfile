@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:2.7-buster
 RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
 RUN apt-get clean
 RUN apt-get update

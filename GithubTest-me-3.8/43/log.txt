@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/usr/local/bin/xxh", line 5, in <module>
-    from xxh_xxh.xxh import xxh, eeprint
-  File "/usr/local/lib/python3.8/site-packages/xxh_xxh/xxh.py", line 1, in <module>
-    import os, sys, argparse, yaml, datetime, re, getpass, pexpect
-ModuleNotFoundError: No module named 'yaml'

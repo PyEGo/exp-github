@@ -1,0 +1,6 @@
+requests==2.25.0
+Jinja2==3.0.1
+beautifulsoup4==4.9.3
+profil3r==1.4.8
+pwnedpasswords==2.0.0
+PyInquirer==1.0.3

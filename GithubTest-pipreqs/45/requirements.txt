@@ -1,0 +1,4 @@
+pandas==1.2.0
+ipywidgets==7.6.3
+dill==0.3.4
+ipython==7.26.0

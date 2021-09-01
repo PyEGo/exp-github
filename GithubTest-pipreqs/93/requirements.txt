@@ -1,0 +1,8 @@
+urllib3==1.24.3
+requests==2.25.0
+tqdm==4.54.1
+beautifulsoup4==4.9.3
+docx==0.2.4
+docx2pdf==0.1.7
+docx2txt==0.8
+node_vm2==0.3.7

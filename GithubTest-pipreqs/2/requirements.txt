@@ -1,0 +1,3 @@
+numpy==1.19.4
+pyopencl==2021.2.6
+tinygrad==0.3.0

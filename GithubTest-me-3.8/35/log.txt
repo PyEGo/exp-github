@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "dirmap.py", line 16, in <module>
-    from lib.controller.engine import run
-  File "/dirmap/lib/controller/engine.py", line 19, in <module>
-    from lib.controller.bruter import bruter
-  File "/dirmap/lib/controller/bruter.py", line 21, in <module>
-    import progressbar
-ModuleNotFoundError: No module named 'progressbar'

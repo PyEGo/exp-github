@@ -1,0 +1,16 @@
+pandas==1.2.0
+matplotlib==3.3.3
+scipy==1.5.4
+numpy==1.19.4
+seaborn==0.11.1
+joblib==1.0.0
+catch22==0.2.0
+Cython==0.29.24
+numba==0.53.1
+pmdarima==1.8.2
+pytest==6.2.4
+scikit_learn==0.24.2
+scikit_posthocs==0.6.7
+sktime==0.7.0
+statsmodels==0.12.2
+stumpy==1.9.2

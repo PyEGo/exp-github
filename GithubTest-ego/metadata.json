@@ -136,16 +136,16 @@
  },
  {
   "id": "10",
-  "name": "DeepLearning",
-  "coderoot": "10/DeepLearning/code",
-  "url": "https://github.com/MingchaoZhu/DeepLearning",
+  "name": "chinese_province_city_area_mapper",
+  "coderoot": "10/chinese_province_city_area_mapper/cpca",
+  "url": "https://github.com/DQinYuan/chinese_province_city_area_mapper",
   "run": [],
-  "cmd": "cd DeepLearning/code && python chapter7.py",
-  "desc": "Python for《Deep Learning》，该书为《深度学习》(花书) 数学推导、原理剖析与源码级别代码实现 ",
+  "cmd": "cd chinese_province_city_area_mapper && python test.py",
+  "desc": "一个用于提取简体中文字符串中省，市和区并能够进行映射，检验和简单绘图的python模块 ",
   "tag": [
-   "ML/DL"
+   "development"
   ],
-  "project_type": "tutorial"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": "11",
@@ -166,7 +166,7 @@
   "coderoot": "12/learn_math_fast",
   "url": "https://github.com/llSourcell/learn_math_fast",
   "run": [],
-  "cmd": "python learn_math_fast/build_toc.py",
+  "cmd": "cd learn_math_fast && python build_toc.py",
   "desc": "This is the Curriculum for \"How to Learn Mathematics Fast\" By Siraj Raval on Youtube ",
   "tag": [],
   "project_type": "application"
@@ -180,49 +180,50 @@
   "cmd": "cd akshare && python test.py",
   "desc": "开源财经数据接口库 ",
   "tag": [
-   "Internet",
+   "finance",
    "database"
   ],
   "project_type": "pure 3rd-party package"
  },
  {
   "id": "14",
-  "name": "Summer2021-Internships",
-  "coderoot": "14/Summer2021-Internships",
-  "url": "https://github.com/pittcsc/Summer2021-Internships",
+  "name": "ASCII-generator",
+  "coderoot": "14/ASCII-generator",
+  "url": "https://github.com/uvipen/ASCII-generator",
   "run": [],
-  "cmd": "python Summer2021-Internships/sync.py",
-  "desc": "Collection of Summer 2021 tech internships. ",
+  "cmd": "cd ASCII-generator && python img2img.py",
+  "desc": "ASCII generator (image to text, image to image, video to video) ",
   "tag": [
-   "Internet"
+   "CV"
   ],
   "project_type": "application"
  },
  {
   "id": "15",
-  "name": "koalas",
-  "coderoot": "15/koalas/databricks",
-  "url": "https://github.com/databricks/koalas",
-  "run": [],
-  "cmd": "cd koalas && python test.py",
-  "desc": "Koalas: pandas API on Apache Spark ",
-  "tag": [],
-  "project_type": "pure 3rd-party package"
+  "name": "pyts",
+  "coderoot": "15/pyts/pyts",
+  "url": "https://github.com/johannfaouzi/pyts",
+  "run": ["pip install matplotlib"],
+  "cmd": "cd pyts && python plot_dft.py",
+  "desc": "A Python package for time series classification ",
+  "tag": [
+   "ML/DL"
+  ],
+  "project_type": "application"
  },
  {
   "id": 16,
-  "name": "kb",
-  "coderoot": "16/kb/kb",
-  "url": "https://github.com/gnebbia/kb",
-  "run": [
-   "cd kb && pip install . --no-deps"
-  ],
-  "cmd": "kb list",
-  "desc": "A minimalist command line knowledge base manager ",
+  "name": "SimCSE",
+  "coderoot": "16/SimCSE/simcse",
+  "url": "https://github.com/princeton-nlp/SimCSE",
+  "run": [],
+  "cmd": "cd SimCSE && python test.py",
+  "desc": "SimCSE: Simple Contrastive Learning of Sentence Embeddings ",
   "tag": [
-   "database"
+   "ML/DL",
+   "NLP"
   ],
-  "project_type": "application"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 17,
@@ -240,29 +241,30 @@
  },
  {
   "id": 18,
-  "name": "ECommerceCrawlers-TouTiao",
-  "coderoot": "18/ECommerceCrawlers-TouTiao/TouTiao",
-  "url": "https://github.com/DropsDevopsOrg/ECommerceCrawlers",
+  "name": "OpenData",
+  "coderoot": "18/OpenData/opendatatools",
+  "url": "https://github.com/PKUJohnson/OpenData",
   "run": [],
-  "cmd": "cd ECommerceCrawlers-TouTiao/TouTiao && python toutiao.py",
-  "desc": "实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、企查查、招聘网站、闲鱼、阿里任务、博客园、微博、百度贴吧、豆瓣电影、包图网",
+  "cmd": "cd OpenData && python test.py",
+  "desc": "开源的金融投资数据提取工具，专注在各类网站上爬取数据，并通过简单易用的API方式使用 ",
   "tag": [
-   "Internet"
+   "finance"
   ],
-  "project_type": "tutorial"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 19,
-  "name": "ECommerceCrawlers-East_money",
-  "coderoot": "19/ECommerceCrawlers-East_money/East_money",
-  "url": "https://github.com/DropsDevopsOrg/ECommerceCrawlers",
+  "name": "w9scan",
+  "coderoot": "19/w9scan",
+  "url": "https://github.com/w-digital-scanner/w9scan",
   "run": [],
-  "cmd": "cd ECommerceCrawlers-East_money/East_money && python main.py",
-  "desc": "实战多种网站、电商数据爬虫。包含：淘宝商品、微信公众号、大众点评、企查查、招聘网站、闲鱼、阿里任务、博客园、微博、百度贴吧、豆瓣电影、包图网",
+  "cmd": "cd w9scan && python w9scan.py -u \"https://x.hacking8.com\"",
+  "desc": "Plug-in type web vulnerability scanner ",
   "tag": [
-   "Internet"
+   "Internet",
+   "security"
   ],
-  "project_type": "tutorial"
+  "project_type": "application"
  },
  {
   "id": 20,
@@ -319,17 +321,16 @@
  },
  {
   "id": 24,
-  "name": "VideoPose3D",
-  "coderoot": "24/VideoPose3D",
-  "url": "https://github.com/facebookresearch/VideoPose3D",
+  "name": "Flask-HTTPAuth",
+  "coderoot": "24/Flask-HTTPAuth/src",
+  "url": "https://github.com/miguelgrinberg/Flask-HTTPAuth",
   "run": [],
-  "cmd": "cd VideoPose3D && python run.py -k cpn_ft_h36m_dbb -arc 3,3,3,3,3 -c checkpoint --evaluate pretrained_h36m_cpn.bin",
-  "desc": "Efficient 3D human pose estimation in video using 2D keypoint trajectories ",
+  "cmd": "cd Flask-HTTPAuth/src && python test.py",
+  "desc": "Simple extension that provides Basic, Digest and Token HTTP authentication for Flask routes ",
   "tag": [
-   "ML/DL",
-   "CV"
+   "development"
   ],
-  "project_type": "application"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 25,
@@ -375,12 +376,12 @@
  },
  {
   "id": 28,
-  "name": "UGATIT-pytorch",
-  "coderoot": "28/UGATIT-pytorch",
-  "url": "https://github.com/znxlwm/UGATIT-pytorch",
+  "name": "logzero",
+  "coderoot": "28/logzero/logzero",
+  "url": "https://github.com/metachris/logzero",
   "run": [],
-  "cmd": "cd UGATIT-pytorch && python main.py --dataset selfie2anime --phase test",
-  "desc": "Official PyTorch implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation ",
+  "cmd": "cd logzero && python test.py",
+  "desc": "Robust and effective logging for Python 2 and 3. ",
   "tag": [
    "ML/DL",
    "CV",
@@ -432,26 +433,25 @@
  },
  {
   "id": 32,
-  "name": "facenet-pytorch",
-  "coderoot": "32/facenet-pytorch/facenet_pytorch",
-  "url": "https://github.com/timesler/facenet-pytorch",
+  "name": "pwnedOrNot",
+  "coderoot": "32/pwnedOrNot",
+  "url": "https://github.com/thewhiteh4t/pwnedOrNot",
   "run": [],
-  "cmd": "cd facenet-pytorch && python test.py",
-  "desc": "Pretrained Pytorch face detection (MTCNN) and recognition (InceptionResnet) models ",
+  "cmd": "cd pwnedOrNot && python pwnedornot.py -h",
+  "desc": "OSINT Tool for Finding Passwords of Compromised Email Addresses ",
   "tag": [
-   "ML/DL",
-   "CV"
+   "security"
   ],
-  "project_type": "pure 3rd-party package"
+  "project_type": "application"
  },
  {
   "id": 33,
-  "name": "PrettyErrors",
-  "coderoot": "33/PrettyErrors/pretty_errors",
-  "url": "https://github.com/onelivesleft/PrettyErrors",
+  "name": "gplearn",
+  "coderoot": "33/gplearn/gplearn",
+  "url": "https://github.com/trevorstephens/gplearn",
   "run": [],
-  "cmd": "cd PrettyErrors && python test.py",
-  "desc": "Prettify Python exception output to make it legible. ",
+  "cmd": "cd gplearn && python test.py",
+  "desc": "Genetic Programming in Python, with a scikit-learn inspired API ",
   "tag": [
    "development"
   ],
@@ -512,12 +512,12 @@
  },
  {
   "id": 38,
-  "name": "stumpy",
-  "coderoot": "38/stumpy/stumpy",
-  "url": "https://github.com/TDAmeritrade/stumpy",
+  "name": "bilibili-api",
+  "coderoot": "38/bilibili-api/bilibili_api",
+  "url": "https://github.com/MoyuScript/bilibili-api",
   "run": [],
-  "cmd": "cd stumpy && python test.py",
-  "desc": "STUMPY is a powerful and scalable Python library for computing a Matrix Profile, which can be used for a variety of time series data mining tasks ",
+  "cmd": "cd bilibili-api && python test.py",
+  "desc": "哔哩哔哩的API调用模块 ",
   "tag": [
    "development"
   ],
@@ -525,16 +525,17 @@
  },
  {
   "id": 39,
-  "name": "SegLoss",
-  "coderoot": "39/SegLoss/losses_pytorch",
-  "url": "https://github.com/JunMa11/SegLoss",
-  "run": [],
-  "cmd": "cd SegLoss/losses_pytorch && python focal_loss.py",
+  "name": "babel",
+  "coderoot": "39/babel/babel",
+  "url": "https://github.com/python-babel/babel",
+  "run": ["python setup.py import_cldr"],
+  "cmd": "cd babel && python test.py",
   "desc": "A collection of loss functions for medical image segmentation ",
   "tag": [
-   "ML/DL"
+   "ML/DL",
+   "CV"
   ],
-  "project_type": "tutorial"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 40,
@@ -588,14 +589,14 @@
  },
  {
   "id": 44,
-  "name": "apistar",
-  "coderoot": "44/apistar/apistar",
-  "url": "https://github.com/encode/apistar",
-  "run": ["cd apistar && pip install . --no-deps"],
-  "cmd": "cd apistar/mytest && apistar validate",
-  "desc": "The Web API toolkit",
+  "name": "blind_watermark",
+  "coderoot": "44/blind_watermark/blind_watermark",
+  "url": "https://github.com/guofei9987/blind_watermark",
+  "run": [],
+  "cmd": "cd blind_watermark && python test.py",
+  "desc": "Blind Watermark （图片盲水印，提取水印无须原图！） ",
   "tag": [
-   "Internet"
+   "CV"
   ],
   "project_type": "application"
  },
@@ -652,14 +653,16 @@
  },
  {
   "id": 49,
-  "name": "python-for-absolute-beginners-course",
-  "coderoot": "49/python-for-absolute-beginners-course/code",
-  "url": "https://github.com/talkpython/python-for-absolute-beginners-course",
+  "name": "doublepulsar-detection-script",
+  "coderoot": "49/doublepulsar-detection-script",
+  "url": "https://github.com/countercept/doublepulsar-detection-script",
   "run": [],
-  "cmd": "cd python-for-absolute-beginners-course && python code/07-data-structures/rocks-game/rpsgame.py",
-  "desc": "Code samples and other handouts for our course. ",
-  "tag": [],
-  "project_type": "tutorial"
+  "cmd": "cd doublepulsar-detection-script && python detect_doublepulsar_smb.py --ip 133.133.133.120",
+  "desc": "A python2 script for sweeping a network to find windows systems compromised with the DOUBLEPULSAR implant. ",
+  "tag": [
+   "Internet"
+  ],
+  "project_type": "application"
  },
  {
   "id": 50,
@@ -677,16 +680,17 @@
  },
  {
   "id": 51,
-  "name": "dimensionality_reduction_alo_codes",
-  "coderoot": "51/dimensionality_reduction_alo_codes/codes",
-  "url": "https://github.com/heucoder/dimensionality_reduction_alo_codes",
+  "name": "weakfilescan",
+  "coderoot": "51/weakfilescan",
+  "url": "https://github.com/ring04h/weakfilescan",
   "run": [],
-  "cmd": "cd dimensionality_reduction_alo_codes/codes/SVD && python SVD.py",
-  "desc": "特征提取/数据降维:PCA、LDA、MDS、LLE、TSNE等降维算法的python实现 ",
+  "cmd": "cd weakfilescan && python wyspider.py 133.133.133.47:8000",
+  "desc": "动态多线程敏感信息泄露检测工具 ",
   "tag": [
-   "ML/DL"
+   "Internet",
+   "security"
   ],
-  "project_type": "tutorial"
+  "project_type": "application"
  },
  {
   "id": 52,
@@ -704,30 +708,30 @@
  },
  {
   "id": 53,
-  "name": "finetune-transformer-lm",
-  "coderoot": "53/finetune-transformer-lm",
-  "url": "https://github.com/openai/finetune-transformer-lm",
-  "run": [],
-  "cmd": "cd finetune-transformer-lm && python train.py",
-  "desc": "Code and model for the paper \"Improving Language Understanding by Generative Pre-Training\" ",
+  "name": "pwncat",
+  "coderoot": "53/pwncat/pwncat",
+  "url": "https://github.com/calebstewart/pwncat",
+  "run": ["cd pwncat && pip install . --no-deps"],
+  "cmd": "cd pwncat && pwncat 133.133.133.47:8000",
+  "desc": "Fancy reverse and bind shell handler ",
   "tag": [
-   "ML/DL",
-   "NLP"
+   "Internet",
+   "security"
   ],
   "project_type": "application"
  },
  {
   "id": 54,
-  "name": "data-science-blogs",
-  "coderoot": "54/data-science-blogs",
-  "url": "https://github.com/rushter/data-science-blogs",
-  "run": [
-  ],
-  "cmd": "cd data-science-blogs && python generate_opml.py && python frequency.py",
-  "desc": "A curated list of data science blogs",
+  "name": "uncertainty-toolbox",
+  "coderoot": "54/uncertainty-toolbox/uncertainty_toolbox",
+  "url": "https://github.com/uncertainty-toolbox/uncertainty-toolbox",
+  "run": [],
+  "cmd": "cd uncertainty-toolbox && python test.py",
+  "desc": "A python toolbox for predictive uncertainty quantification, calibration, metrics, and visualization ",
   "tag": [
+   "development"
   ],
-  "project_type": "application"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 55,
@@ -795,42 +799,40 @@
  },
  {
   "id": 60,
-  "name": "mnssp3-DNA",
-  "coderoot": "60/mnssp3-DNA/DNA/MotifFinding/Python/n-gram/simple",
-  "url": "https://github.com/mpplab/mnssp3",
+  "name": "galaxy-integrations-python-api",
+  "coderoot": "60/galaxy-integrations-python-api/src/galaxy",
+  "url": "https://github.com/gogcom/galaxy-integrations-python-api",
   "run": [],
-  "cmd": "cd mnssp3-DNA/DNA/MotifFinding/Python/n-gram/simple && python test.py",
-  "desc": "A Privacy Protection Sharing Platform for Medical Big Data",
+  "cmd": "cd galaxy-integrations-python-api/src && python test.py",
+  "desc": "NOTE: Please report here only issues related to the python API. Issues and general feedback regarding the Galaxy Client 2.0 shall be sent via Galaxy Client menu ",
   "tag": [
-   "ML/DL"
+   "development"
   ],
-  "project_type": "tutorial"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 61,
-  "name": "mnssp3-EMR",
-  "coderoot": "61/mnssp3-EMR/EMR/DiabeticRetinopathyDetection/Python/Diabetic_Retinopathy_Detection",
-  "url": "https://github.com/mpplab/mnssp3",
-  "run": [],
-  "cmd": "cd mnssp3-EMR/EMR/DiabeticRetinopathyDetection/Python/Diabetic_Retinopathy_Detection && python test.py",
-  "desc": "A Privacy Protection Sharing Platform for Medical Big Data",
+  "name": "mitm6",
+  "coderoot": "61/mitm6/mitm6",
+  "url": "https://github.com/fox-it/mitm6",
+  "run": ["cd mitm6 && pip install . --no-deps"],
+  "cmd": "mitm6 -h",
+  "desc": "pwning IPv4 via IPv6 ",
   "tag": [
-   "ML/DL"
+   "Internet"
   ],
-  "project_type": "tutorial"
+  "project_type": "application"
  },
  {
   "id": 62,
-  "name": "mnssp3-EEG",
-  "coderoot": "62/mnssp3-EEG/EEG/EpilepsyDetection/Python/EEG",
-  "url": "https://github.com/mpplab/mnssp3",
+  "name": "flask-celery-example",
+  "coderoot": "62/flask-celery-example",
+  "url": "https://github.com/miguelgrinberg/flask-celery-example",
   "run": [],
-  "cmd": "cd mnssp3-EEG/EEG/EpilepsyDetection/Python/EEG && python predict.py",
-  "desc": "A Privacy Protection Sharing Platform for Medical Big Data",
-  "tag": [
-   "ML/DL"
-  ],
-  "project_type": "tutorial"
+  "cmd": "cd flask-celery-example && python app.py",
+  "desc": "This repository contains the example code for my blog article Using Celery with Flask. ",
+  "tag": [],
+  "project_type": "application"
  },
  {
   "id": 63,
@@ -905,14 +907,16 @@
  },
  {
   "id": 68,
-  "name": "links-uteis",
-  "coderoot": "68/links-uteis",
-  "url": "https://github.com/gabrielcmarinho/links-uteis",
+  "name": "path",
+  "coderoot": "68/path/path",
+  "url": "https://github.com/jaraco/path",
   "run": [],
-  "cmd": "cd links-uteis && python ordena_md_categoria.py",
-  "desc": "Apunhado de links úteis para o desenvolvimento de projetos de programação e design ",
-  "tag": [],
-  "project_type": "application"
+  "cmd": "cd path && python test.py",
+  "desc": "Object-oriented file system path manipulation ",
+  "tag": [
+    "development"
+  ],
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 69,
@@ -943,14 +947,13 @@
  },
  {
   "id": 71,
-  "name": "gitGraber",
-  "coderoot": "71/gitGraber",
-  "url": "https://github.com/hisxo/gitGraber",
-  "run": [],
-  "cmd": "cd gitGraber && python gitGraber.py -k keywordsfile.txt -q \"yahoo.com\" -s -m",
-  "desc": "gitGraber: monitor GitHub to search and find sensitive data in real time for different online services such as: Google, Amazon, Paypal, Github, Mailgun, Facebook, Twitter, Heroku, Stripe... ",
+  "name": "plotman",
+  "coderoot": "71/plotman/src",
+  "url": "https://github.com/ericaltendorf/plotman",
+  "run": ["cd plotman & pip install . --no-deps"],
+  "cmd": "plotman -h",
+  "desc": "Chia plotting manager ",
   "tag": [
-   "Internet",
    "development"
   ],
   "project_type": "application"
@@ -1000,16 +1003,16 @@
  },
  {
   "id": 75,
-  "name": "leedeeprl-notes",
-  "coderoot": "75/leedeeprl-notes/codes/A2C",
-  "url": "https://github.com/datawhalechina/leedeeprl-notes",
+  "name": "sentry-python",
+  "coderoot": "75/sentry-python/sentry_sdk",
+  "url": "https://github.com/getsentry/sentry-python",
   "run": [],
-  "cmd": "cd leedeeprl-notes/codes/A2C && python main.py",
-  "desc": "李宏毅《深度强化学习》笔记，在线阅读地址：https://datawhalechina.github.io/leedeeprl-notes/",
+  "cmd": "cd sentry-python && python test.py",
+  "desc": "The new Python SDK for Sentry.io ",
   "tag": [
-   "ML/DL"
+   "development"
   ],
-  "project_type": "tutorial"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 76,
@@ -1037,15 +1040,14 @@
  },
  {
   "id": 78,
-  "name": "distribution-is-all-you-need",
-  "coderoot": "78/distribution-is-all-you-need",
-  "url": "https://github.com/graykode/distribution-is-all-you-need",
+  "name": "kaldi-gstreamer-server",
+  "coderoot": "78/kaldi-gstreamer-server/kaldigstserver",
+  "url": "https://github.com/alumae/kaldi-gstreamer-server",
   "run": [],
-  "cmd": "cd distribution-is-all-you-need && python uniform.py",
-  "desc": "The basic distribution probability Tutorial for Deep Learning Researchers ",
+  "cmd": "cd kaldi-gstreamer-server && python kaldigstserver/master_server.py --port=8888",
+  "desc": "Real-time full-duplex speech recognition server, based on the Kaldi toolkit and the GStreamer framwork. ",
   "tag": [
-   "distribution",
-   "ML/DL"
+   "Internet"
   ],
   "project_type": "application"
  },
@@ -1064,30 +1066,29 @@
  },
  {
   "id": 80,
-  "name": "PyInquirer",
-  "coderoot": "80/PyInquirer/PyInquirer",
-  "url": "https://github.com/CITGuru/PyInquirer",
-  "run": [],
-  "cmd": "cd PyInquirer && python test.py",
-  "desc": "A Python module for common interactive command line user interfaces ",
+  "name": "Profil3r",
+  "coderoot": "80/Profil3r/profil3r",
+  "url": "https://github.com/Rog3rSm1th/Profil3r",
+  "run": ["pip install profil3r --no-deps"],
+  "cmd": "profil3r -p john doe -r ./OSINT",
+  "desc": "OSINT tool that allows you to find a person's accounts and emails + breached emails detective",
   "tag": [
-    "development"
+    "security"
   ],
-  "project_type": "pure 3rd-party package"
+  "project_type": "application"
  },
  {
   "id": 81,
-  "name": "sparse_attention",
-  "coderoot": "81/sparse_attention",
-  "url": "https://github.com/openai/sparse_attention",
+  "name": "nba_api",
+  "coderoot": "81/nba_api/nba_api",
+  "url": "https://github.com/swar/nba_api",
   "run": [],
-  "cmd": "cd sparse_attention && python attention.py",
-  "desc": "Examples of using sparse attention, as in \"Generating Long Sequences with Sparse Transformers\" ",
+  "cmd": "cd nba_api && python test.py",
+  "desc": "An API Client package to access the APIs for NBA.com ",
   "tag": [
-   "ML/DL",
-   "NLP"
+   "Internet"
   ],
-  "project_type": "application"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 82,
@@ -1104,16 +1105,17 @@
  },
  {
   "id": 83,
-  "name": "machine_learning_examples",
-  "coderoot": "83/machine_learning_examples/cnn_class",
-  "url": "https://github.com/lazyprogrammer/machine_learning_examples",
-  "run": [],
-  "cmd": "cd machine_learning_examples/cnn_class && python edge_benchmark.py",
-  "desc": "HA collection of machine learning examples and tutorials. ",
+  "name": "pke",
+  "coderoot": "83/pke/pke",
+  "url": "https://github.com/boudinfl/pke",
+  "run": ["python -m nltk.downloader stopwords && python -m nltk.downloader universal_tagset && python -m spacy download en"],
+  "cmd": "cd pke && python test.py",
+  "desc": " Python Keyphrase Extraction module ",
   "tag": [
-   "ML/DL"
+   "ML/DL",
+   "NLP"
   ],
-  "project_type": "tutorial"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 84,
@@ -1128,16 +1130,16 @@
  },
  {
   "id": 85,
-  "name": "wechat_friends",
-  "coderoot": "85/wechat_friends",
-  "url": "https://github.com/yangxuanxc/wechat_friends",
+  "name": "pygooglenews",
+  "coderoot": "85/pygooglenews/pygooglenews",
+  "url": "https://github.com/kotartemiy/pygooglenews",
   "run": [],
-  "cmd": "cd wechat_friends && python get_user_info.py",
-  "desc": "微信好友信息分析并可视化以及自动回复微信消息 ",
+  "cmd": "cd pygooglenews && python test.py",
+  "desc": "If Google News had a Python library ",
   "tag": [
-   "NLP"
+   "Internet"
   ],
-  "project_type": "application"
+  "project_type": "pure 3rd-party package"
  },
  {
   "id": 86,
@@ -1238,16 +1240,17 @@
  },
  {
   "id": 93,
-  "name": "pydub",
-  "coderoot": "93/pydub/pydub",
-  "url": "https://github.com/jiaaro/pydub",
+  "name": "Packer-Fuzzer",
+  "coderoot": "93/Packer-Fuzzer",
+  "url": "https://github.com/rtcatc/Packer-Fuzzer",
   "run": [],
-  "cmd": "cd pydub && python test.py",
-  "desc": "Manipulate audio with a simple and easy high level interface",
+  "cmd": "cd Packer-Fuzzer && python PackerFuzzer.py -u http://133.133.133.47:8000",
+  "desc": "Packer Fuzzer is a fast and efficient scanner for security detection of websites constructed by javascript module bundler such as Webpack. ",
   "tag": [
-   "ML/DL"
+   "Internet",
+   "security"
   ],
-  "project_type": "pure 3rd-party package"
+  "project_type": "application"
  },
  {
   "id": 94,
@@ -1279,18 +1282,15 @@
  },
  {
   "id": 96,
-  "name": "BERT-BiLSTM-CRF-NER",
-  "coderoot": "96/BERT-BiLSTM-CRF-NER",
-  "url": "https://github.com/macanv/BERT-BiLSTM-CRF-NER",
+  "name": "doge",
+  "coderoot": "96/doge/doge",
+  "url": "https://github.com/thiderman/doge",
   "run": [
-   "cd BERT-BiLSTM-CRF-NER && pip install . --no-deps"
+   "cd doge && pip install . --no-deps"
   ],
-  "cmd": "bert-base-serving-start -help && bert-base-ner-train -help",
-  "desc": "Tensorflow solution of NER task Using BiLSTM-CRF model with Google BERT Fine-tuning",
-  "tag": [
-   "ML/DL",
-   "NLP"
-  ],
+  "cmd": "doge",
+  "desc": "wow very terminal doge ",
+  "tag": [],
   "project_type": "application"
  },
  {
@@ -1310,18 +1310,16 @@
  },
  {
   "id": 98,
-  "name": "jina",
-  "coderoot": "98/jina/jina",
-  "url": "https://github.com/jina-ai/jina",
+  "name": "peru",
+  "coderoot": "98/peru/peru",
+  "url": "https://github.com/buildinspace/peru",
   "run": [
-   "pip install jina --no-deps"
+   "cd peru && pip install . --no-deps"
   ],
-  "cmd": "jina hello-world",
-  "desc": "An easier way to build neural search in the cloud",
+  "cmd": "cd peru && peru sync",
+  "desc": "a generic package manager, for including other people's code in your projects ",
   "tag": [
-   "ML/DL",
-   "Internet",
-   "CV"
+   "development"
   ],
   "project_type": "application"
  },

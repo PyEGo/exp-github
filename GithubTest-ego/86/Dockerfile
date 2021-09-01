@@ -1,5 +1,4 @@
-FROM python:3.8
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:3.7-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install build-essential -y
@@ -39,29 +38,29 @@ RUN apt-get install unzip -y
 RUN apt-get install wget -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install pytz==2020.4
-RUN pip install dill==0.3.3
-RUN pip install psutil==5.7.3
-RUN pip install numpy==1.19.4
-RUN pip install diskcache==5.1.0
+RUN pip install psutil==5.8.0
+RUN pip install pyspark==3.1.1
+RUN pip install pytz==2021.1
 RUN pip install six==1.15.0
-RUN pip install mock==4.0.3
-RUN pip install pyspark==3.0.1
-RUN pip install pillow==8.0.1
-RUN pip install future==0.18.2
 RUN pip install py4j==0.10.9.1
-RUN pip install opencv-python==4.4.0.46
+RUN pip install dill==0.3.3
+RUN pip install numpy==1.20.3
+RUN pip install future==0.18.2
+RUN pip install pillow==8.2.0
+RUN pip install mock==4.0.3
+RUN pip install diskcache==5.2.1
+RUN pip install opencv-python==4.5.2.52
 RUN pip install pyarrow==0.14.1
-RUN pip install packaging==20.8
+RUN pip install packaging==20.9
 RUN pip install tensorflow==2.4.0
-RUN pip install torch==1.7.1
-RUN pip install pyzmq==20.0.0
 RUN pip install pandas==1.1.5
-RUN pip install torchvision==0.8.2
-RUN pip install gcsfs==0.7.1
+RUN pip install pyzmq==22.0.3
+RUN pip install torch==1.8.1
+RUN pip install torchvision==0.9.1
 RUN pip install pytest==6.2.1
+RUN pip install gcsfs==2021.4.0
+RUN pip install s3fs==2021.4.0
 RUN pip install hops-petastorm==0.9.4
-RUN pip install s3fs==0.5.2
 ADD petastorm petastorm
 # add CMD command to run your programs here
 CMD cd petastorm && python test.py

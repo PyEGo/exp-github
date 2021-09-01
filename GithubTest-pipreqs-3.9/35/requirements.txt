@@ -1,4 +1,0 @@
-requests==2.25.1
-gevent==21.1.2
-lxml==4.6.2
-progressbar33==2.4

@@ -1,24 +1,26 @@
-FROM python:3.8
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:3.9-buster
 RUN apt-get clean
 RUN apt-get update
+RUN apt-get install ca-certificates -y
+RUN apt-get install cython3 -y
+RUN apt-get install g++ -y
 RUN apt-get install libblas3 -y
 RUN apt-get install libgfortran5 -y
 RUN apt-get install liblapack3 -y
-RUN apt-get install libprotobuf17 -y
 RUN apt-get install libquadmath0 -y
+RUN apt-get install libssl-dev -y
 RUN apt-get install procps -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install numpy==1.19.4
-RUN pip install pillow==8.0.1
-RUN pip install scipy==1.5.4
-RUN pip install tensorflow==2.4.0
-RUN pip install pandas==1.1.5
-RUN pip install theano==1.0.5
-RUN pip install keras==2.4.3
-RUN pip install scikit-learn==0.23.2
-RUN pip install matplotlib==3.3.3
-ADD machine_learning_examples machine_learning_examples
+RUN pip install joblib==1.0.0
+RUN pip install numpy==1.20.3
+RUN pip install six==1.16.0
+RUN pip install networkx==2.5
+RUN pip install scipy==1.6.3
+RUN pip install nltk==3.6.2
+RUN pip install scikit-learn==0.24.2
+RUN pip install spacy==3.0.6
+ADD pke pke
+RUN python -m nltk.downloader stopwords && python -m nltk.downloader universal_tagset && python -m spacy download en
 # add CMD command to run your programs here
-CMD cd machine_learning_examples/cnn_class && python edge_benchmark.py
+CMD cd pke && python test.py

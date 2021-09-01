@@ -1,3 +1,0 @@
-dj_database_url==0.5.0
-Django==3.1.7
-djangorestframework==3.12.2

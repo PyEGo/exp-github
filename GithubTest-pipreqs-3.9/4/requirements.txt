@@ -1,3 +1,0 @@
-cloudpickle==1.6.0
-rich==9.13.0
-scalene==1.2.4

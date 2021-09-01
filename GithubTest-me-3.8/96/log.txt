@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/usr/local/bin/bert-base-serving-start", line 8, in <module>
-    sys.exit(start_server())
-  File "/usr/local/lib/python3.8/site-packages/bert_base/runs/__init__.py", line 12, in start_server
-    from bert_base.server import BertServer
-  File "/usr/local/lib/python3.8/site-packages/bert_base/server/__init__.py", line 29, in <module>
-    import zmq
-ModuleNotFoundError: No module named 'zmq'

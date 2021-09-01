@@ -1,0 +1,4 @@
+pandas==1.2.0
+ahocorasick==0.9
+folium==0.12.1
+pyecharts==1.9.0

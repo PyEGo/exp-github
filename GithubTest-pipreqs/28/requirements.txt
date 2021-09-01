@@ -1,0 +1,2 @@
+colorama==0.4.4
+logzero==1.7.0

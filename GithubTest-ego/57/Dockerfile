@@ -1,13 +1,10 @@
-FROM python:3.9
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:3.9-buster
 RUN apt-get clean
 RUN apt-get update
-RUN apt-get install build-essential -y
-RUN apt-get install libssl-dev -y
-RUN apt-get install wget -y
+RUN apt-get install ca-certificates -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install impacket==0.9.22
-ADD CVE-2020-1472 CVE-2020-1472
+RUN pip install tornado==6.1
+ADD commitment commitment
 # add CMD command to run your programs here
-CMD cd CVE-2020-1472 && python ./zerologon_tester.py EXAMPLE-DC 1.2.3.4
+CMD cd commitment && python commit.py

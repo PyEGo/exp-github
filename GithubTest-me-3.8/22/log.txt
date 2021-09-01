@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "fetch_ips.py", line 16, in <module>
-    from retry import retry
-ModuleNotFoundError: No module named 'retry'

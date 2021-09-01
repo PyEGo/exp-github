@@ -1,0 +1,13 @@
+idna==2.10
+tqdm==4.54.1
+requests==2.25.0
+beautifulsoup4==4.9.3
+cdx_toolkit==0.9.33
+dnspython==2.1.0
+exrex==0.10.5
+fire==0.4.0
+loguru==0.5.3
+secrets==1.0.2
+SQLAlchemy==1.4.22
+tenacity==8.0.1
+treelib==1.6.1

@@ -1,5 +1,4 @@
-FROM python:3.8
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:3.8-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install git -y
@@ -27,13 +26,13 @@ RUN apt-get install libprotobuf17 -y
 RUN apt-get install wget -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install tqdm==4.54.1
-RUN pip install numpy==1.19.4
+RUN pip install tqdm==4.60.0
 RUN pip install easydict==1.9
-RUN pip install pillow==8.0.1
-RUN pip install opencv-python==4.4.0.46
+RUN pip install numpy==1.20.3
+RUN pip install pillow==8.2.0
+RUN pip install opencv-python==4.5.2.52
 RUN pip install tensorflow==2.4.0
-RUN pip install matplotlib==3.3.3
+RUN pip install matplotlib==3.4.2
 ADD tensorflow-yolov3 tensorflow-yolov3
 # add CMD command to run your programs here
 CMD cd tensorflow-yolov3 && python image_demo.py

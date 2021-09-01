@@ -1,8 +1,0 @@
-aiofiles==0.6.0
-contextvars==2.4
-graphene==2.1.8
-itsdangerous==1.1.0
-Jinja2==2.11.3
-multipart==0.2.4
-PyYAML==5.4.1
-starlette==0.14.2

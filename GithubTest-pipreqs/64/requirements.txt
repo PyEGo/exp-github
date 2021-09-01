@@ -1,0 +1,9 @@
+tqdm==4.54.1
+matplotlib==3.3.3
+Jinja2==3.0.1
+scipy==1.5.4
+pandas==1.2.0
+numpy==1.19.4
+importlib_resources==5.2.2
+ipython==7.26.0
+sweetviz==2.1.3

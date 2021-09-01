@@ -1,4 +1,0 @@
-argcomplete==1.12.2
-packaging==20.9
-pipx==0.16.1.0
-userpath==1.4.2

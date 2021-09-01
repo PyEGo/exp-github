@@ -1,0 +1,14 @@
+Jinja2==3.0.1
+BeautifulSoup==3.2.2
+boto==2.49.0
+Cheetah==2.4.4
+cheroot==8.5.2
+ClientForm==0.2.10
+cx_Oracle==8.2.1
+DBUtils==2.0.2
+flup==1.0.3
+Genshi==0.7.5
+Mako==1.1.4
+protobuf==3.17.3
+psycopg2==2.9.1
+pymssql==2.2.2

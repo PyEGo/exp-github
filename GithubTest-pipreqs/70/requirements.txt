@@ -1,0 +1,4 @@
+Pygments==2.9.0
+executing==0.8.0
+Flask==2.0.1
+heartrate==0.2.1

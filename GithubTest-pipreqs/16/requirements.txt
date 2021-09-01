@@ -1,0 +1,11 @@
+tqdm==4.54.1
+numpy==1.19.4
+apex==0.9.10dev
+datasets==1.11.0
+faiss==1.5.3
+filelock==3.0.12
+packaging==21.0
+ray==1.5.2
+scikit_learn==0.24.2
+torch==1.9.0
+transformers==4.9.2

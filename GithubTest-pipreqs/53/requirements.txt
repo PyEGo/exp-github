@@ -1,0 +1,16 @@
+requests==2.25.0
+Jinja2==3.0.1
+prompt_toolkit==2.0.10
+Pygments==2.9.0
+BTrees==4.9.2
+dataclasses==0.8
+netifaces==0.11.0
+packaging==21.0
+paramiko==2.7.2
+persistent==4.7.0
+pwncat==0.1.1
+pycryptodome==3.10.1
+rapidjson==1.0.0
+rich==10.7.0
+ZODB==5.6.0
+zodburi==2.5.0

@@ -1,0 +1,31 @@
+FROM python:3.9-buster
+ADD archivy archivy
+RUN ["apt-get","update"]
+RUN ["pip","install","requests"]
+RUN ["pip","install","psycopg2"]
+RUN ["pip","install","python-dateutil"]
+RUN ["pip","install","pathlib"]
+RUN ["pip","install","Jinja2"]
+RUN ["pip","install","Flask"]
+RUN ["apt-get","install","-y","python-pip"]
+RUN ["apt-get","install","-y","python-dev"]
+RUN ["pip","install","Flask-Login"]
+RUN ["pip","install","itsdangerous"]
+RUN ["pip","install","Werkzeug"]
+RUN ["pip","install","WTForms"]
+RUN ["pip","install","MarkupSafe"]
+RUN ["pip","install","SQLAlchemy"]
+RUN ["pip","install","Flask-Babel"]
+RUN ["pip","install","Flask-Compress"]
+RUN ["pip","install","predikto-elasticsearch"]
+RUN ["pip","install","tinydb"]
+RUN ["pip","install","pytest"]
+RUN ["pip","install","path.py"]
+RUN ["pip","install","archivy"]
+RUN ["pip","install","elasticsearch"]
+RUN ["pip","install","Flask-Compress-nondebug"]
+RUN ["pip","install","Flask-WTF"]
+RUN ["pip","install","wtforms-validators"]
+RUN cd archivy && pip install . --no-deps
+CMD archivy --help
+
